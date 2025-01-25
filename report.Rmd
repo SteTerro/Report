@@ -10,10 +10,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 rm(list=ls())
-setwd("C:/Users/Stefa/Documents/1-Stefano/1-Medica/1- Report")
+setwd("C:/Users/Stefa/Documents/1-Stefano/1-Medica/1-Report")
 dati<-read.table("mussels2.txt",sep=",",header = T)
 attach(dati)
 library(ggplot2)
+library(e1071)
+library(tseries)
 ```
 ac = Stepping stones to Alabama-Coosa 
 ap = Stepping stones to Apalachicola
@@ -32,12 +34,32 @@ hy = Hydronium
 summary(specie)
 sd(specie)
 IQR(specie)
+# Calcola la skewness
+(skewness_value <- skewness(specie))
+jarque.bera.test(specie)
+
 ggplot(data=dati, aes(x=factor(0),y=specie,fill=factor(0)))+
   geom_violin(trim=F)+
   geom_boxplot(width=0.2,fill="white")+
   scale_fill_manual(values="cadetblue3",
                     labels="boh")+
   labs(x="", y="Species")+
+  theme(legend.position = "none")
+
+#area
+summary(area)
+sd(area)
+IQR(area)
+# Calcola la skewness
+(skewness_value <- skewness(area))
+jarque.bera.test(area)
+
+ggplot(data=dati, aes(x=factor(0),y=area,fill=factor(0)))+
+  geom_violin(trim=F)+
+  geom_boxplot(width=0.2,fill="white")+
+  scale_fill_manual(values="cadetblue3",
+                    labels="boh")+
+  labs(x="", y="Area")+
   theme(legend.position = "none")
 
 #area ma mettiamo il log.area
@@ -57,6 +79,8 @@ ggplot(data=dati, aes(x=factor(0),y=specie,fill=factor(0)))+
 summary(ac)
 sd(ac)
 IQR(ac)
+(skewness_value <- skewness(ac))
+jarque.bera.test(ac)
 ggplot(data=dati, aes(x=factor(0),y=ac,fill=factor(0)))+
   geom_violin(trim=F)+
   geom_boxplot(width=0.2,fill="white")+
@@ -69,6 +93,8 @@ ggplot(data=dati, aes(x=factor(0),y=ac,fill=factor(0)))+
 summary(ap)
 sd(ap)
 IQR(ap)
+(skewness_value <- skewness(ap))
+jarque.bera.test(ap)
 ggplot(data=dati, aes(x=factor(0),y=ap,fill=factor(0)))+
   geom_violin(trim=F)+
   geom_boxplot(width=0.2,fill="white")+
@@ -81,6 +107,8 @@ ggplot(data=dati, aes(x=factor(0),y=ap,fill=factor(0)))+
 summary(sv)
 sd(sv)
 IQR(sv)
+(skewness_value <- skewness(sv))
+jarque.bera.test(sv)
 ggplot(data=dati, aes(x=factor(0),y=sv,fill=factor(0)))+
   geom_violin(trim=F)+
   geom_boxplot(width=0.2,fill="white")+
@@ -93,6 +121,8 @@ ggplot(data=dati, aes(x=factor(0),y=sv,fill=factor(0)))+
 summary(sl)
 sd(sl)
 IQR(sl)
+(skewness_value <- skewness(sl))
+jarque.bera.test(sl)
 ggplot(data=dati, aes(x=factor(0),y=sl,fill=factor(0)))+
   geom_violin(trim=F)+
   geom_boxplot(width=0.2,fill="white")+
@@ -105,6 +135,8 @@ ggplot(data=dati, aes(x=factor(0),y=sl,fill=factor(0)))+
 summary(nitrate)
 sd(nitrate)
 IQR(nitrate)
+(skewness_value <- skewness(nitrate))
+jarque.bera.test(nitrate)
 ggplot(data=dati, aes(x=factor(0),y=nitrate,fill=factor(0)))+
   geom_violin(trim=F)+
   geom_boxplot(width=0.2,fill="white")+
@@ -117,6 +149,8 @@ ggplot(data=dati, aes(x=factor(0),y=nitrate,fill=factor(0)))+
 summary(sr)
 sd(sr)
 IQR(sr)
+(skewness_value <- skewness(sr))
+jarque.bera.test(sr)
 ggplot(data=dati, aes(x=factor(0),y=sr,fill=factor(0)))+
   geom_violin(trim=F)+
   geom_boxplot(width=0.2,fill="white")+
@@ -129,6 +163,8 @@ ggplot(data=dati, aes(x=factor(0),y=sr,fill=factor(0)))+
 summary(hy)
 sd(hy)
 IQR(hy)
+(skewness_value <- skewness(hy))
+jarque.bera.test(hy)
 ggplot(data=dati, aes(x=factor(0),y=hy,fill=factor(0)))+
   geom_violin(trim=F)+
   geom_boxplot(width=0.2,fill="white")+
@@ -141,6 +177,8 @@ ggplot(data=dati, aes(x=factor(0),y=hy,fill=factor(0)))+
 summary(ln.area)
 sd(ln.area)
 IQR(ln.area)
+(skewness_value <- skewness(ln.area))
+jarque.bera.test(ln.area)
 ggplot(data=dati, aes(x=factor(0),y=ln.area,fill=factor(0)))+
   geom_violin(trim=F)+
   geom_boxplot(width=0.2,fill="white")+
