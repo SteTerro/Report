@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  25 JAN 2025 14:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  27 JAN 2025 21:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -301,74 +301,74 @@ italian.ldf    on input line 22.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 87--87
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 90--90
 []|\OT1/cmr/m/n/10 11.25(5.99)| 
  []
 
 
-Overfull \hbox (2.77792pt too wide) in paragraph at lines 87--87
+Overfull \hbox (2.77792pt too wide) in paragraph at lines 90--90
 []|\OT1/cmr/m/n/10 6590(6016)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 87--87
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 90--90
 []|\OT1/cmr/m/n/10 15.34(9.19)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 87--87
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 90--90
 []|\OT1/cmr/m/n/10 12.02(8.24)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 87--87
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 90--90
 []|\OT1/cmr/m/n/10 8.136(8.94)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 87--87
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 90--90
 []|\OT1/cmr/m/n/10 22.16(1.84)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 87--87
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 90--90
 []|\OT1/cmr/m/n/10 1.495(1.84)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 87--87
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 90--90
 []|\OT1/cmr/m/n/10 112.4(17.3)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 87--87
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 90--90
 []|\OT1/cmr/m/n/10 3.631(6.03)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 87--87
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 90--90
 []|\OT1/cmr/m/n/10 8.331(1.07)| 
  []
 
 
-Overfull \hbox (8.32675pt too wide) in alignment at lines 87--87
+Overfull \hbox (8.32675pt too wide) in alignment at lines 90--90
 [][][][][][][][][][][][][][]
  []
 
 <immagini/vp_species.png, id=1, 526.96875pt x 325.215pt>
 File: immagini/vp_species.png Graphic file (type png)
 <use immagini/vp_species.png>
-Package pdftex.def Info: immagini/vp_species.png  used on input line 118.
+Package pdftex.def Info: immagini/vp_species.png  used on input line 121.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 <immagini/vp_area.png, id=2, 526.96875pt x 325.215pt>
 File: immagini/vp_area.png Graphic file (type png)
 <use immagini/vp_area.png>
-Package pdftex.def Info: immagini/vp_area.png  used on input line 125.
+Package pdftex.def Info: immagini/vp_area.png  used on input line 128.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 
 
@@ -378,22 +378,22 @@ Package pdftex.def Info: immagini/vp_area.png  used on input line 125.
 <immagini/vp_ac.png, id=11, 526.96875pt x 325.215pt>
 File: immagini/vp_ac.png Graphic file (type png)
 <use immagini/vp_ac.png>
-Package pdftex.def Info: immagini/vp_ac.png  used on input line 137.
+Package pdftex.def Info: immagini/vp_ac.png  used on input line 140.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 <immagini/vp_ap.png, id=12, 526.96875pt x 325.215pt>
 File: immagini/vp_ap.png Graphic file (type png)
 <use immagini/vp_ap.png>
-Package pdftex.def Info: immagini/vp_ap.png  used on input line 144.
+Package pdftex.def Info: immagini/vp_ap.png  used on input line 147.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 <immagini/vp_sv.png, id=13, 526.96875pt x 325.215pt>
 File: immagini/vp_sv.png Graphic file (type png)
 <use immagini/vp_sv.png>
-Package pdftex.def Info: immagini/vp_sv.png  used on input line 156.
+Package pdftex.def Info: immagini/vp_sv.png  used on input line 159.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 <immagini/vp_sl.png, id=14, 526.96875pt x 325.215pt>
 File: immagini/vp_sl.png Graphic file (type png)
 <use immagini/vp_sl.png>
-Package pdftex.def Info: immagini/vp_sl.png  used on input line 163.
+Package pdftex.def Info: immagini/vp_sl.png  used on input line 166.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 
 
@@ -401,52 +401,152 @@ Package pdftex.def Info: immagini/vp_sl.png  used on input line 163.
 <immagini/vp_nitrate.png, id=23, 526.96875pt x 325.215pt>
 File: immagini/vp_nitrate.png Graphic file (type png)
 <use immagini/vp_nitrate.png>
-Package pdftex.def Info: immagini/vp_nitrate.png  used on input line 176.
+Package pdftex.def Info: immagini/vp_nitrate.png  used on input line 179.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 <immagini/vp_sd.png, id=24, 526.96875pt x 325.215pt>
 File: immagini/vp_sd.png Graphic file (type png)
 <use immagini/vp_sd.png>
-Package pdftex.def Info: immagini/vp_sd.png  used on input line 183.
+Package pdftex.def Info: immagini/vp_sd.png  used on input line 186.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 <immagini/vp_hy.png, id=25, 526.96875pt x 325.215pt>
 File: immagini/vp_hy.png Graphic file (type png)
 <use immagini/vp_hy.png>
-Package pdftex.def Info: immagini/vp_hy.png  used on input line 196.
+Package pdftex.def Info: immagini/vp_hy.png  used on input line 199.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 <immagini/vp_ln.png, id=26, 526.96875pt x 325.215pt>
 File: immagini/vp_ln.png Graphic file (type png)
 <use immagini/vp_ln.png>
-Package pdftex.def Info: immagini/vp_ln.png  used on input line 203.
+Package pdftex.def Info: immagini/vp_ln.png  used on input line 206.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 
 
 [3 <./immagini/vp_sv.png> <./immagini/vp_sl.png> <./immagini/vp_nitrate.png> <./immagini/vp_sd.png>]
 
 [4 <./immagini/vp_hy.png> <./immagini/vp_ln.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
+<immagini/sp_ln.png, id=39, 526.96875pt x 325.215pt>
+File: immagini/sp_ln.png Graphic file (type png)
+<use immagini/sp_ln.png>
+Package pdftex.def Info: immagini/sp_ln.png  used on input line 263.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+<immagini/ac_ap.png, id=40, 526.96875pt x 325.215pt>
+File: immagini/ac_ap.png Graphic file (type png)
+<use immagini/ac_ap.png>
+Package pdftex.def Info: immagini/ac_ap.png  used on input line 270.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 
 
-[5] (univariate.aux)
+[5 <./immagini/sp_ln.png> <./immagini/ac_ap.png>]
+<immagini/ac_sv.png, id=47, 526.96875pt x 325.215pt>
+File: immagini/ac_sv.png Graphic file (type png)
+<use immagini/ac_sv.png>
+Package pdftex.def Info: immagini/ac_sv.png  used on input line 289.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+<immagini/ac_sl.png, id=48, 526.96875pt x 325.215pt>
+File: immagini/ac_sl.png Graphic file (type png)
+<use immagini/ac_sl.png>
+Package pdftex.def Info: immagini/ac_sl.png  used on input line 296.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+
+
+[6 <./immagini/ac_sv.png> <./immagini/ac_sl.png>]
+<immagini/ac_nitrate.png, id=54, 526.96875pt x 325.215pt>
+File: immagini/ac_nitrate.png Graphic file (type png)
+<use immagini/ac_nitrate.png>
+Package pdftex.def Info: immagini/ac_nitrate.png  used on input line 316.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+<immagini/ac_hy.png, id=55, 526.96875pt x 325.215pt>
+File: immagini/ac_hy.png Graphic file (type png)
+<use immagini/ac_hy.png>
+Package pdftex.def Info: immagini/ac_hy.png  used on input line 323.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+
+
+[7 <./immagini/ac_nitrate.png> <./immagini/ac_hy.png>]
+<immagini/ap_sv.png, id=62, 526.96875pt x 325.215pt>
+File: immagini/ap_sv.png Graphic file (type png)
+<use immagini/ap_sv.png>
+Package pdftex.def Info: immagini/ap_sv.png  used on input line 342.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+<immagini/ap_sl.png, id=63, 526.96875pt x 325.215pt>
+File: immagini/ap_sl.png Graphic file (type png)
+<use immagini/ap_sl.png>
+Package pdftex.def Info: immagini/ap_sl.png  used on input line 349.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+<immagini/ap_nitrate.png, id=64, 526.96875pt x 325.215pt>
+File: immagini/ap_nitrate.png Graphic file (type png)
+<use immagini/ap_nitrate.png>
+Package pdftex.def Info: immagini/ap_nitrate.png  used on input line 370.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+<immagini/ap_hy.png, id=65, 526.96875pt x 325.215pt>
+File: immagini/ap_hy.png Graphic file (type png)
+<use immagini/ap_hy.png>
+Package pdftex.def Info: immagini/ap_hy.png  used on input line 377.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+
+
+[8 <./immagini/ap_sv.png> <./immagini/ap_sl.png>]
+<immagini/sv_sl.png, id=71, 526.96875pt x 325.215pt>
+File: immagini/sv_sl.png Graphic file (type png)
+<use immagini/sv_sl.png>
+Package pdftex.def Info: immagini/sv_sl.png  used on input line 395.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+<immagini/sv_nitrate.png, id=72, 526.96875pt x 325.215pt>
+File: immagini/sv_nitrate.png Graphic file (type png)
+<use immagini/sv_nitrate.png>
+Package pdftex.def Info: immagini/sv_nitrate.png  used on input line 402.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+
+
+[9 <./immagini/ap_nitrate.png> <./immagini/ap_hy.png> <./immagini/sv_sl.png> <./immagini/sv_nitrate.png>]
+<immagini/sl_nitrate.png, id=80, 526.96875pt x 325.215pt>
+File: immagini/sl_nitrate.png Graphic file (type png)
+<use immagini/sl_nitrate.png>
+Package pdftex.def Info: immagini/sl_nitrate.png  used on input line 422.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+<immagini/sl_hy.png, id=81, 526.96875pt x 325.215pt>
+File: immagini/sl_hy.png Graphic file (type png)
+<use immagini/sl_hy.png>
+Package pdftex.def Info: immagini/sl_hy.png  used on input line 429.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+
+
+[10 <./immagini/sl_nitrate.png> <./immagini/sl_hy.png>]
+<immagini/sr_nitrate.png, id=87, 526.96875pt x 325.215pt>
+File: immagini/sr_nitrate.png Graphic file (type png)
+<use immagini/sr_nitrate.png>
+Package pdftex.def Info: immagini/sr_nitrate.png  used on input line 448.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+<immagini/sr_hy.png, id=88, 526.96875pt x 325.215pt>
+File: immagini/sr_hy.png Graphic file (type png)
+<use immagini/sr_hy.png>
+Package pdftex.def Info: immagini/sr_hy.png  used on input line 455.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+
+
+[11 <./immagini/sr_nitrate.png> <./immagini/sr_hy.png>]
+
+[12] (univariate.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7208 strings out of 473897
- 121691 string characters out of 5726461
- 551991 words of memory out of 5000000
- 30023 multiletter control sequences out of 15000+600000
- 559505 words of font info for 41 fonts, out of 8000000 for 9000
+ 7327 strings out of 473897
+ 124751 string characters out of 5726461
+ 551993 words of memory out of 5000000
+ 30141 multiletter control sequences out of 15000+600000
+ 559673 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,14n,80p,604b,433s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on univariate.pdf (5 pages, 132720 bytes).
+ 57i,14n,80p,657b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on univariate.pdf (12 pages, 300880 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

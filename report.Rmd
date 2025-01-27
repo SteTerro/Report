@@ -213,33 +213,18 @@ sign
 rownames(sign) <- variable_names
 colnames(sign) <- variable_names
 
-# Stampa la matrice sign con i nomi delle variabili sugli assi
+# stampa la matrice sign con i nomi delle variabili sugli assi
 print(sign)
 
 cor.test(dati[, 9], dati[, 3], method = "spearman") 
 #vanno messi i test per verificare se la correlazione è significativa
 
-#hy-specie 
-ggplot(dati, aes(x = hy, y = specie)) +
-  geom_point() +
-  geom_smooth(method = "lm", se = TRUE) +
-  labs(x = "Hydronium concentration", y = "Number of Species")
-cor.test(hy,specie,method = "spearman")
-
-
-#sr-specie (non significativo)
-ggplot(dati, aes(x = sr, y = specie)) +
-  geom_point() +
-  geom_smooth(method = "lm", se = TRUE) +
-  labs(x = "Solid Residue", y = "Number of Species")
-cor.test(sr,specie,method = "spearman")
-
-#nitrate -specie (non significativo)
-ggplot(dati, aes(x = nitrate, y = specie)) +
-  geom_point() +
-  geom_smooth(method = "lm", se = TRUE) +
-  labs(x = "Nitrate Concentration", y = "Number of Species")
-cor.test(nitrate,specie, method = "spearman")
+#area-specie 
+#ggplot(dati, aes(x = area, y = specie)) +
+#  geom_point() +
+# geom_smooth(method = "lm", se = TRUE) +
+#  labs(x = "Area", y = "Number of Species")
+#cor.test(area,specie,method = "spearman")
 
 #ac-specie (non significativo)
 ggplot(dati, aes(x = ac, y = specie)) +
@@ -262,13 +247,33 @@ ggplot(dati, aes(x = sv, y = specie)) +
   labs(x = "Stepping Stones to Savannah", y = "Number of Species")
 cor.test(sv,specie, method = "spearman")
 
-
 #sl-speice (non significativo)
 ggplot(dati, aes(x = sl, y = specie)) +
   geom_point() +
   geom_smooth(method = "lm", se = TRUE) +
   labs(x = "Stepping Stones to St. Lawrence", y = "Number of Species")
 cor.test(sl,specie, method = "spearman")
+
+#nitrate -specie (non significativo)
+ggplot(dati, aes(x = nitrate, y = specie)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Nitrate Concentration", y = "Number of Species")
+cor.test(nitrate,specie, method = "spearman")
+
+#sr-specie (non significativo)
+ggplot(dati, aes(x = sr, y = specie)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Solid Residue", y = "Number of Species")
+cor.test(sr,specie,method = "spearman")
+
+#hy-specie 
+ggplot(dati, aes(x = hy, y = specie)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Hydronium concentration", y = "Number of Species")
+cor.test(hy,specie,method = "spearman")
 
 #ln.area-specie (significativo)
 ggplot(dati, aes(x = ln.area, y = specie)) +
@@ -277,21 +282,222 @@ ggplot(dati, aes(x = ln.area, y = specie)) +
   labs(x = "Logarithm of the area", y = "Number of Species")
 cor.test(ln.area,specie, method = "spearman")
 
+#####################################################################################
+
+#ap-ac (significativo)
+ggplot(dati, aes(x = ap, y = ac)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Stepping Stones to Apalachicola", y = "Stepping Stones to Alabama-Coosa")
+cor.test(ap,ac, method = "spearman")
+
+#sv-ac (significativo)
+ggplot(dati, aes(x = sv, y = ac)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Stepping Stones to Savannah", y = "Stepping Stones to Alabama-Coosa")
+cor.test(sv,ac, method = "spearman")
+
+#sl-ac (significativo)
+ggplot(dati, aes(x = sl, y = ac)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Stepping Stones to St. Lawrence", y = "Stepping Stones to Alabama-Coosa")
+cor.test(sl,ac, method = "spearman")
+
+#nitrate-ac (significativo)
+ggplot(dati, aes(x = nitrate, y = ac)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Nitrate Concentration", y = "Stepping Stones to Alabama-Coosa")
+cor.test(nitrate,ac, method = "spearman")
+
+#sr-ac (non significativo)
+ggplot(dati, aes(x = sr, y = ac)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Solid Residue", y = "Stepping Stones to Alabama-Coosa")
+cor.test(sr,ac, method = "spearman")
+
+#hy-ac  (significativo)
+ggplot(dati, aes(x = hy, y = ac)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Hydronium concentration", y = "Stepping Stones to Alabama-Coosa")
+cor.test(hy,ac,method = "spearman")
+
+#ln.area-ac (non significativo)
+ggplot(dati, aes(x = ln.area, y = ac)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Logarithm of the area", y = "Stepping Stones to Alabama-Coosa")
+cor.test(ln.area,ac, method = "spearman")
+
+####################################################################################
+
+#sv-ap (significativo)
+ggplot(dati, aes(x = sv, y = ap)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Stepping Stones to Savannah", y = "Stepping Stones to Apalachicola")
+cor.test(sv,ap, method = "spearman")
+
+#sl-ap (significativo)
+ggplot(dati, aes(x = sl, y = ap)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Stepping Stones to St. Lawrence", y = "Stepping Stones to Apalachicola")
+cor.test(sl,ap, method = "spearman")
+
+#nitrate-ap (significativo)
+ggplot(dati, aes(x = nitrate, y = ap)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Nitrate Concentration", y = "Stepping Stones to Apalachicola")
+cor.test(nitrate,ap, method = "spearman")
+
+#sr-ap (non significativo)
+ggplot(dati, aes(x = sr, y = ap)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Solid Residue", y = "Stepping Stones to Apalachicola")
+cor.test(sr,ap, method = "spearman")
+
+#hy-ap  (significativo)
+ggplot(dati, aes(x = hy, y = ap)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Hydronium concentration", y = "Stepping Stones to Apalachicola")
+cor.test(hy,ap,method = "spearman")
+
+#ln.area-ap (non significativo)
+ggplot(dati, aes(x = ln.area, y = ap)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Logarithm of the area", y = "Stepping Stones to Apalachicola")
+cor.test(ln.area,ap, method = "spearman")
+
+####################################################################################
+
+#sl-sv (significativo)
+ggplot(dati, aes(x = sl, y = sv)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Stepping Stones to St. Lawrence", y = "Stepping Stones to Savannah")
+cor.test(sl,sv, method = "spearman")
+
+#nitrate-sv (significativo)
+ggplot(dati, aes(x = nitrate, y = sv)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Nitrate Concentration", y = "Stepping Stones to Savannah")
+cor.test(nitrate,sv, method = "spearman")
+
+#sr-sv (non significativo)
+ggplot(dati, aes(x = sr, y = sv)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Solid Residue", y = "Stepping Stones to Savannah")
+cor.test(sr,sv, method = "spearman")
+
+#hy-sv  (non significativo)
+ggplot(dati, aes(x = hy, y = sv)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Hydronium concentration", y = "Stepping Stones to Savannah")
+cor.test(hy,sv,method = "spearman")
+
+#ln.area-sv (non significativo)
+ggplot(dati, aes(x = ln.area, y = sv)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Logarithm of the area", y = "Stepping Stones to Savannah")
+cor.test(ln.area,sv, method = "spearman")
+
+####################################################################################
+
+#nitrate-sl (significativo)
+ggplot(dati, aes(x = nitrate, y = sl)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Nitrate Concentration", y = "Stepping Stones to St. Lawrence")
+cor.test(nitrate,sl, method = "spearman")
+
+#sr-sl (non significativo)
+ggplot(dati, aes(x = sr, y = sl)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Solid Residue", y = "Stepping Stones to St. Lawrence")
+cor.test(sr,sl, method = "spearman")
+
+#hy-sl  (significativo)
+ggplot(dati, aes(x = hy, y = sl)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Hydronium concentration", y = "Stepping Stones to St. Lawrence")
+cor.test(hy,sl,method = "spearman")
+
+#ln.area-sl (non significativo)
+ggplot(dati, aes(x = ln.area, y = sl)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Logarithm of the area", y = "Stepping Stones to St. Lawrence")
+cor.test(ln.area,sl, method = "spearman")
+
+####################################################################################
+
+#sr-nitrate (significativo)
+ggplot(dati, aes(x = sr, y = nitrate)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Solid Residue", y = "Nitrate Concentration")
+cor.test(sr,nitrate, method = "spearman")
+
+#hy-nitrate  (non significativo)
+ggplot(dati, aes(x = hy, y = nitrate)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Hydronium concentration", y = "Nitrate Concentration")
+cor.test(hy,nitrate,method = "spearman")
+
+#ln.area-nitrate (non significativo)
+ggplot(dati, aes(x = ln.area, y = nitrate)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Logarithm of the area", y = "Nitrate Concentration")
+cor.test(ln.area,nitrate, method = "spearman")
+
+####################################################################################
+
+#hy-sr  (significativo)
+ggplot(dati, aes(x = hy, y = sr)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Hydronium concentration", y = "Solid Residue")
+cor.test(hy,sr,method = "spearman")
+
 #ln.area-sr (non significativo)
 ggplot(dati, aes(x = ln.area, y = sr)) +
   geom_point() +
   geom_smooth(method = "lm", se = TRUE) +
-  labs(x = "Log(Area)", y = "Solid Residue")
+  labs(x = "Logarithm of the area", y = "Solid Residue")
 cor.test(ln.area,sr, method = "spearman")
+
+####################################################################################
 
 #ln.area-hy (non significativo)
 ggplot(dati, aes(x = ln.area, y = hy)) +
   geom_point() +
   geom_smooth(method = "lm", se = TRUE) +
-  labs(x = "Log(Area)", y = "Hydronium Concentration")
+  labs(x = "Logarithm of the area", y = "Hydronium Concentration")
 cor.test(ln.area,hy, method = "spearman")
 
+####################################################################################
+
 ```
+
+
+
 
 # modello lineare
 
