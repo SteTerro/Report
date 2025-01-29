@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  28 JAN 2025 19:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  30 JAN 2025 00:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -30,25 +30,89 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box52
 \@float@everytoks=\toks18
 \@floatcapt=\box53
+) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2024/05/23 v2.17q AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen142
+)) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count269
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count270
+\leftroot@=\count271
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count272
+\DOTSCASE@=\count273
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count274
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count275
+\dotsspace@=\muskip17
+\c@parentequation=\count276
+\dspbrk@lvl=\count277
+\tag@help=\toks20
+\row@=\count278
+\column@=\count279
+\maxfields@=\count280
+\andhelp@=\toks21
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen142
-\lightrulewidth=\dimen143
-\cmidrulewidth=\dimen144
-\belowrulesep=\dimen145
-\belowbottomsep=\dimen146
-\aboverulesep=\dimen147
-\abovetopsep=\dimen148
-\cmidrulesep=\dimen149
-\cmidrulekern=\dimen150
-\defaultaddspace=\dimen151
-\@cmidla=\count269
-\@cmidlb=\count270
-\@aboverulesep=\dimen152
-\@belowrulesep=\dimen153
-\@thisruleclass=\count271
-\@lastruleclass=\count272
-\@thisrulewidth=\dimen154
+\heavyrulewidth=\dimen151
+\lightrulewidth=\dimen152
+\cmidrulewidth=\dimen153
+\belowrulesep=\dimen154
+\belowbottomsep=\dimen155
+\aboverulesep=\dimen156
+\abovetopsep=\dimen157
+\cmidrulesep=\dimen158
+\cmidrulekern=\dimen159
+\defaultaddspace=\dimen160
+\@cmidla=\count281
+\@cmidlb=\count282
+\@aboverulesep=\dimen161
+\@belowrulesep=\dimen162
+\@thisruleclass=\count283
+\@lastruleclass=\count284
+\@thisrulewidth=\dimen163
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
  (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
@@ -71,27 +135,27 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 File: svgnam.def 2024/09/29 v3.02 Predefined colors according to SVG 1.1 (UK)
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks19
+\KV@toks@=\toks24
 )
-\lst@mode=\count273
-\lst@gtempboxa=\box54
-\lst@token=\toks20
-\lst@length=\count274
-\lst@currlwidth=\dimen155
-\lst@column=\count275
-\lst@pos=\count276
-\lst@lostspace=\dimen156
-\lst@width=\dimen157
-\lst@newlines=\count277
-\lst@lineno=\count278
-\lst@maxwidth=\dimen158
+\lst@mode=\count285
+\lst@gtempboxa=\box56
+\lst@token=\toks25
+\lst@length=\count286
+\lst@currlwidth=\dimen164
+\lst@column=\count287
+\lst@pos=\count288
+\lst@lostspace=\dimen165
+\lst@width=\dimen166
+\lst@newlines=\count289
+\lst@lineno=\count290
+\lst@maxwidth=\dimen167
  (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count279
-\lst@skipnumbers=\count280
-\lst@framebox=\box55
+\c@lstnumber=\count291
+\lst@skipnumbers=\count292
+\lst@framebox=\box57
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
@@ -109,12 +173,12 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 )
-\Gin@req@height=\dimen159
-\Gin@req@width=\dimen160
+\Gin@req@height=\dimen168
+\Gin@req@width=\dimen169
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks21
-\verbatim@line=\toks22
+\every@verbatim=\toks26
+\verbatim@line=\toks27
 \verbatim@in@stream=\read2
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -123,34 +187,34 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count281
-\Gm@cntv=\count282
-\c@Gm@tempcnt=\count283
-\Gm@bindingoffset=\dimen161
-\Gm@wd@mp=\dimen162
-\Gm@odd@mp=\dimen163
-\Gm@even@mp=\dimen164
-\Gm@layoutwidth=\dimen165
-\Gm@layoutheight=\dimen166
-\Gm@layouthoffset=\dimen167
-\Gm@layoutvoffset=\dimen168
-\Gm@dimlist=\toks23
+\Gm@cnth=\count293
+\Gm@cntv=\count294
+\c@Gm@tempcnt=\count295
+\Gm@bindingoffset=\dimen170
+\Gm@wd@mp=\dimen171
+\Gm@odd@mp=\dimen172
+\Gm@even@mp=\dimen173
+\Gm@layoutwidth=\dimen174
+\Gm@layoutheight=\dimen175
+\Gm@layouthoffset=\dimen176
+\Gm@layoutvoffset=\dimen177
+\Gm@dimlist=\toks28
  (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count284
-\cp@tempcnt=\count285
+\c@cp@cntr=\count296
+\cp@tempcnt=\count297
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks24
-\inpenc@posthook=\toks25
+\inpenc@prehook=\toks29
+\inpenc@posthook=\toks30
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2024/10/20 v24.12 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
-\babel@savecnt=\count286
-\U@D=\dimen169
+\babel@savecnt=\count298
+\U@D=\dimen178
 \l@unhyphenated=\language79
  (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
-\bbl@dirlevel=\count287
+\bbl@dirlevel=\count299
 
 *************************************
 * Local config file bblopts.cfg used
@@ -159,61 +223,66 @@ Package: babel 2024/10/20 v24.12 The multilingual framework for pdfLaTeX, LuaLaT
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.ldf
 Language: italian 2024/10/10 v.1.5.01 Italian support for the babel system
-\it@lettering=\count288
-\it@doublequoteactive=\count289
-\it@ISOcompliance=\count290
+\it@lettering=\count300
+\it@doublequoteactive=\count301
+\it@ISOcompliance=\count302
 )) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/it\babel-italian.tex
 Package babel Info: Importing font and identification data for italian
 (babel)             from babel-it.ini. Reported on input line 11.
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count291
+\etb@tempcnta=\count303
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
  (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
-\col@sep=\dimen170
-\ar@mcellbox=\box56
-\extrarowheight=\dimen171
-\NC@list=\toks26
-\extratabsurround=\skip51
-\backup@length=\skip52
-\ar@cellbox=\box57
+\col@sep=\dimen179
+\ar@mcellbox=\box58
+\extrarowheight=\dimen180
+\NC@list=\toks31
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box59
 )
-\TX@col@width=\dimen172
-\TX@old@table=\dimen173
-\TX@old@col=\dimen174
-\TX@target=\dimen175
-\TX@delta=\dimen176
-\TX@cols=\count292
-\TX@ftn=\toks27
+\TX@col@width=\dimen181
+\TX@old@table=\dimen182
+\TX@old@col=\dimen183
+\TX@target=\dimen184
+\TX@delta=\dimen185
+\TX@cols=\count304
+\TX@ftn=\toks32
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen177
-\captionmargin=\dimen178
-\caption@leftmargin=\dimen179
-\caption@rightmargin=\dimen180
-\caption@width=\dimen181
-\caption@indent=\dimen182
-\caption@parindent=\dimen183
-\caption@hangindent=\dimen184
+\caption@tempdima=\dimen186
+\captionmargin=\dimen187
+\caption@leftmargin=\dimen188
+\caption@rightmargin=\dimen189
+\caption@width=\dimen190
+\caption@indent=\dimen191
+\caption@parindent=\dimen192
+\caption@hangindent=\dimen193
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count293
-\c@continuedfloat=\count294
+\c@caption@flags=\count305
+\c@continuedfloat=\count306
 Package caption Info: changepage package is loaded.
-\caption@adjustwidth@hsize=\dimen185
-\caption@adjustwidth@linewidth=\dimen186
+\caption@adjustwidth@hsize=\dimen194
+\caption@adjustwidth@linewidth=\dimen195
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
+) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip56
+\thanksmargin=\skip57
+\droptitle=\skip58
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count295
-\l__pdf_internal_box=\box58
+\l__color_backend_stack_int=\count307
+\l__pdf_internal_box=\box60
 ) (univariate.aux)
 \openout1 = `univariate.aux'.
 
@@ -233,17 +302,17 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
  (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
-\scratchdimen=\dimen187
-\scratchbox=\box59
-\nofMPsegments=\count297
-\nofMParguments=\count298
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count299
-\MPscratchDim=\dimen188
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count308
+\scratchdimen=\dimen196
+\scratchbox=\box61
+\nofMPsegments=\count309
+\nofMParguments=\count310
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count311
+\MPscratchDim=\dimen197
+\MPnumerator=\count312
+\makeMPintoPDFobject=\count313
+\everyMPtoPDFconversion=\toks34
 ) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -252,7 +321,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
-\c@lstlisting=\count302
+\c@lstlisting=\count314
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -300,262 +369,362 @@ italian.ldf    on input line 22.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 51.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 51.
+<immagini/unipd.png, id=1, 803.0pt x 809.0225pt>
+File: immagini/unipd.png Graphic file (type png)
+<use immagini/unipd.png>
+Package pdftex.def Info: immagini/unipd.png  used on input line 42.
+(pdftex.def)             Requested size: 109.87401pt x 110.69469pt.
 
 
 [1
 
-{C:/Users/Stefa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
+{C:/Users/Stefa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./immagini/unipd.png>]
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 93--93
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/10 11.25(5.99)| 
  []
 
 
-Overfull \hbox (2.77792pt too wide) in paragraph at lines 93--93
+Overfull \hbox (2.77792pt too wide) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/10 6590(6016)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 93--93
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/10 15.34(9.19)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 93--93
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/10 12.02(8.24)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 93--93
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/10 8.136(8.94)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 93--93
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/10 22.16(1.84)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 93--93
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/10 1.495(1.84)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 93--93
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/10 112.4(17.3)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 93--93
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/10 3.631(6.03)| 
  []
 
 
-Overfull \hbox (3.33348pt too wide) in paragraph at lines 93--93
+Overfull \hbox (3.33348pt too wide) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/10 8.331(1.07)| 
  []
 
 
-Overfull \hbox (8.32675pt too wide) in alignment at lines 93--93
+Overfull \hbox (8.32675pt too wide) in alignment at lines 125--125
 [][][][][][][][][][][][][][]
  []
 
-<immagini/vp_species.png, id=11, 526.96875pt x 325.215pt>
+<immagini/vp_species.png, id=21, 526.96875pt x 325.215pt>
 File: immagini/vp_species.png Graphic file (type png)
 <use immagini/vp_species.png>
-Package pdftex.def Info: immagini/vp_species.png  used on input line 124.
+Package pdftex.def Info: immagini/vp_species.png  used on input line 156.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/vp_area.png, id=12, 526.96875pt x 325.215pt>
+<immagini/vp_area.png, id=22, 526.96875pt x 325.215pt>
 File: immagini/vp_area.png Graphic file (type png)
 <use immagini/vp_area.png>
-Package pdftex.def Info: immagini/vp_area.png  used on input line 131.
+Package pdftex.def Info: immagini/vp_area.png  used on input line 163.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 
 
 [2]
-<immagini/vp_ac.png, id=16, 526.96875pt x 325.215pt>
+<immagini/vp_ac.png, id=26, 526.96875pt x 325.215pt>
 File: immagini/vp_ac.png Graphic file (type png)
 <use immagini/vp_ac.png>
-Package pdftex.def Info: immagini/vp_ac.png  used on input line 147.
+Package pdftex.def Info: immagini/vp_ac.png  used on input line 179.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/vp_ap.png, id=17, 526.96875pt x 325.215pt>
+<immagini/vp_ap.png, id=27, 526.96875pt x 325.215pt>
 File: immagini/vp_ap.png Graphic file (type png)
 <use immagini/vp_ap.png>
-Package pdftex.def Info: immagini/vp_ap.png  used on input line 154.
+Package pdftex.def Info: immagini/vp_ap.png  used on input line 186.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/vp_sv.png, id=18, 526.96875pt x 325.215pt>
+<immagini/vp_sv.png, id=28, 526.96875pt x 325.215pt>
 File: immagini/vp_sv.png Graphic file (type png)
 <use immagini/vp_sv.png>
-Package pdftex.def Info: immagini/vp_sv.png  used on input line 167.
+Package pdftex.def Info: immagini/vp_sv.png  used on input line 199.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/vp_sl.png, id=19, 526.96875pt x 325.215pt>
+<immagini/vp_sl.png, id=29, 526.96875pt x 325.215pt>
 File: immagini/vp_sl.png Graphic file (type png)
 <use immagini/vp_sl.png>
-Package pdftex.def Info: immagini/vp_sl.png  used on input line 174.
+Package pdftex.def Info: immagini/vp_sl.png  used on input line 206.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 
 
 [3 <./immagini/vp_species.png> <./immagini/vp_area.png> <./immagini/vp_ac.png> <./immagini/vp_ap.png>]
-<immagini/vp_nitrate.png, id=27, 526.96875pt x 325.215pt>
+<immagini/vp_nitrate.png, id=37, 526.96875pt x 325.215pt>
 File: immagini/vp_nitrate.png Graphic file (type png)
 <use immagini/vp_nitrate.png>
-Package pdftex.def Info: immagini/vp_nitrate.png  used on input line 188.
+Package pdftex.def Info: immagini/vp_nitrate.png  used on input line 220.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/vp_sd.png, id=28, 526.96875pt x 325.215pt>
+<immagini/vp_sd.png, id=38, 526.96875pt x 325.215pt>
 File: immagini/vp_sd.png Graphic file (type png)
 <use immagini/vp_sd.png>
-Package pdftex.def Info: immagini/vp_sd.png  used on input line 195.
+Package pdftex.def Info: immagini/vp_sd.png  used on input line 227.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/vp_hy.png, id=29, 526.96875pt x 325.215pt>
+<immagini/vp_hy.png, id=39, 526.96875pt x 325.215pt>
 File: immagini/vp_hy.png Graphic file (type png)
 <use immagini/vp_hy.png>
-Package pdftex.def Info: immagini/vp_hy.png  used on input line 209.
+Package pdftex.def Info: immagini/vp_hy.png  used on input line 241.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/vp_ln.png, id=30, 526.96875pt x 325.215pt>
+<immagini/vp_ln.png, id=40, 526.96875pt x 325.215pt>
 File: immagini/vp_ln.png Graphic file (type png)
 <use immagini/vp_ln.png>
-Package pdftex.def Info: immagini/vp_ln.png  used on input line 216.
+Package pdftex.def Info: immagini/vp_ln.png  used on input line 248.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 
 
 [4 <./immagini/vp_sv.png> <./immagini/vp_sl.png> <./immagini/vp_nitrate.png> <./immagini/vp_sd.png>]
 
 [5 <./immagini/vp_hy.png> <./immagini/vp_ln.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
 
-<immagini/sp_a.png, id=43, 526.96875pt x 325.215pt>
+<immagini/sp_a.png, id=53, 526.96875pt x 325.215pt>
 File: immagini/sp_a.png Graphic file (type png)
 <use immagini/sp_a.png>
-Package pdftex.def Info: immagini/sp_a.png  used on input line 274.
+Package pdftex.def Info: immagini/sp_a.png  used on input line 305.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/sp_ln.png, id=44, 526.96875pt x 325.215pt>
+<immagini/sp_ln.png, id=54, 526.96875pt x 325.215pt>
 File: immagini/sp_ln.png Graphic file (type png)
 <use immagini/sp_ln.png>
-Package pdftex.def Info: immagini/sp_ln.png  used on input line 281.
+Package pdftex.def Info: immagini/sp_ln.png  used on input line 312.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 
 
 [6 <./immagini/sp_a.png> <./immagini/sp_ln.png>]
-<immagini/ac_ap.png, id=51, 526.96875pt x 325.215pt>
+<immagini/ac_ap.png, id=61, 526.96875pt x 325.215pt>
 File: immagini/ac_ap.png Graphic file (type png)
 <use immagini/ac_ap.png>
-Package pdftex.def Info: immagini/ac_ap.png  used on input line 299.
+Package pdftex.def Info: immagini/ac_ap.png  used on input line 330.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/ac_sv.png, id=52, 526.96875pt x 325.215pt>
+<immagini/ac_sv.png, id=62, 526.96875pt x 325.215pt>
 File: immagini/ac_sv.png Graphic file (type png)
 <use immagini/ac_sv.png>
-Package pdftex.def Info: immagini/ac_sv.png  used on input line 306.
+Package pdftex.def Info: immagini/ac_sv.png  used on input line 337.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/ac_sl.png, id=53, 526.96875pt x 325.215pt>
+<immagini/ac_sl.png, id=63, 526.96875pt x 325.215pt>
 File: immagini/ac_sl.png Graphic file (type png)
 <use immagini/ac_sl.png>
-Package pdftex.def Info: immagini/ac_sl.png  used on input line 315.
+Package pdftex.def Info: immagini/ac_sl.png  used on input line 346.
 (pdftex.def)             Requested size: 183.1215pt x 113.01312pt.
 
 
 [7 <./immagini/ac_ap.png> <./immagini/ac_sv.png> <./immagini/ac_sl.png>]
-<immagini/ac_nitrate.png, id=61, 526.96875pt x 325.215pt>
+<immagini/ac_nitrate.png, id=70, 526.96875pt x 325.215pt>
 File: immagini/ac_nitrate.png Graphic file (type png)
 <use immagini/ac_nitrate.png>
-Package pdftex.def Info: immagini/ac_nitrate.png  used on input line 339.
+Package pdftex.def Info: immagini/ac_nitrate.png  used on input line 370.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/ac_hy.png, id=62, 526.96875pt x 325.215pt>
+<immagini/ac_hy.png, id=71, 526.96875pt x 325.215pt>
 File: immagini/ac_hy.png Graphic file (type png)
 <use immagini/ac_hy.png>
-Package pdftex.def Info: immagini/ac_hy.png  used on input line 346.
+Package pdftex.def Info: immagini/ac_hy.png  used on input line 377.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 
 
 [8 <./immagini/ac_nitrate.png> <./immagini/ac_hy.png>]
-<immagini/ap_sv.png, id=68, 526.96875pt x 325.215pt>
+<immagini/ap_sv.png, id=77, 526.96875pt x 325.215pt>
 File: immagini/ap_sv.png Graphic file (type png)
 <use immagini/ap_sv.png>
-Package pdftex.def Info: immagini/ap_sv.png  used on input line 365.
+Package pdftex.def Info: immagini/ap_sv.png  used on input line 396.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/ap_sl.png, id=69, 526.96875pt x 325.215pt>
+<immagini/ap_sl.png, id=78, 526.96875pt x 325.215pt>
 File: immagini/ap_sl.png Graphic file (type png)
 <use immagini/ap_sl.png>
-Package pdftex.def Info: immagini/ap_sl.png  used on input line 372.
+Package pdftex.def Info: immagini/ap_sl.png  used on input line 403.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/ap_nitrate.png, id=70, 526.96875pt x 325.215pt>
+<immagini/ap_nitrate.png, id=79, 526.96875pt x 325.215pt>
 File: immagini/ap_nitrate.png Graphic file (type png)
 <use immagini/ap_nitrate.png>
-Package pdftex.def Info: immagini/ap_nitrate.png  used on input line 393.
+Package pdftex.def Info: immagini/ap_nitrate.png  used on input line 424.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/ap_hy.png, id=71, 526.96875pt x 325.215pt>
+<immagini/ap_hy.png, id=80, 526.96875pt x 325.215pt>
 File: immagini/ap_hy.png Graphic file (type png)
 <use immagini/ap_hy.png>
-Package pdftex.def Info: immagini/ap_hy.png  used on input line 400.
+Package pdftex.def Info: immagini/ap_hy.png  used on input line 431.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 
 
 [9 <./immagini/ap_sv.png> <./immagini/ap_sl.png>]
-<immagini/sv_sl.png, id=77, 526.96875pt x 325.215pt>
+<immagini/sv_sl.png, id=86, 526.96875pt x 325.215pt>
 File: immagini/sv_sl.png Graphic file (type png)
 <use immagini/sv_sl.png>
-Package pdftex.def Info: immagini/sv_sl.png  used on input line 418.
+Package pdftex.def Info: immagini/sv_sl.png  used on input line 449.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/sv_nitrate.png, id=78, 526.96875pt x 325.215pt>
+<immagini/sv_nitrate.png, id=87, 526.96875pt x 325.215pt>
 File: immagini/sv_nitrate.png Graphic file (type png)
 <use immagini/sv_nitrate.png>
-Package pdftex.def Info: immagini/sv_nitrate.png  used on input line 425.
+Package pdftex.def Info: immagini/sv_nitrate.png  used on input line 456.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 
 
 [10 <./immagini/ap_nitrate.png> <./immagini/ap_hy.png> <./immagini/sv_sl.png> <./immagini/sv_nitrate.png>]
-<immagini/sl_nitrate.png, id=86, 526.96875pt x 325.215pt>
+<immagini/sl_nitrate.png, id=95, 526.96875pt x 325.215pt>
 File: immagini/sl_nitrate.png Graphic file (type png)
 <use immagini/sl_nitrate.png>
-Package pdftex.def Info: immagini/sl_nitrate.png  used on input line 445.
+Package pdftex.def Info: immagini/sl_nitrate.png  used on input line 476.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/sl_hy.png, id=87, 526.96875pt x 325.215pt>
+<immagini/sl_hy.png, id=96, 526.96875pt x 325.215pt>
 File: immagini/sl_hy.png Graphic file (type png)
 <use immagini/sl_hy.png>
-Package pdftex.def Info: immagini/sl_hy.png  used on input line 452.
+Package pdftex.def Info: immagini/sl_hy.png  used on input line 483.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 
 
 [11 <./immagini/sl_nitrate.png> <./immagini/sl_hy.png>]
-<immagini/sr_nitrate.png, id=93, 526.96875pt x 325.215pt>
+<immagini/sr_nitrate.png, id=102, 526.96875pt x 325.215pt>
 File: immagini/sr_nitrate.png Graphic file (type png)
 <use immagini/sr_nitrate.png>
-Package pdftex.def Info: immagini/sr_nitrate.png  used on input line 471.
+Package pdftex.def Info: immagini/sr_nitrate.png  used on input line 502.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/sr_hy.png, id=94, 526.96875pt x 325.215pt>
+<immagini/sr_hy.png, id=103, 526.96875pt x 325.215pt>
 File: immagini/sr_hy.png Graphic file (type png)
 <use immagini/sr_hy.png>
-Package pdftex.def Info: immagini/sr_hy.png  used on input line 478.
+Package pdftex.def Info: immagini/sr_hy.png  used on input line 509.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 
 
-[12 <./immagini/sr_nitrate.png> <./immagini/sr_hy.png>] (univariate.aux)
+[12 <./immagini/sr_nitrate.png> <./immagini/sr_hy.png>]
+<immagini/qq_lm.png, id=110, 526.96875pt x 325.215pt>
+File: immagini/qq_lm.png Graphic file (type png)
+<use immagini/qq_lm.png>
+Package pdftex.def Info: immagini/qq_lm.png  used on input line 583.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+<immagini/res_lm.png, id=111, 526.96875pt x 325.215pt>
+File: immagini/res_lm.png Graphic file (type png)
+<use immagini/res_lm.png>
+Package pdftex.def Info: immagini/res_lm.png  used on input line 590.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+
+
+[13]
+Overfull \hbox (11.5351pt too wide) in paragraph at lines 596--600
+[]\OT1/cmr/m/n/10 Sia il dia-gram-ma quantile-quantile \OT1/cmr/m/it/10 (Fi-gu-ra 28)\OT1/cmr/m/n/10 , sia il te-st di Shapiro-Wilk (W=0.984,
+ []
+
+<immagini/res_val_oss_lm.png, id=118, 526.96875pt x 325.215pt>
+File: immagini/res_val_oss_lm.png Graphic file (type png)
+<use immagini/res_val_oss_lm.png>
+Package pdftex.def Info: immagini/res_val_oss_lm.png  used on input line 603.
+(pdftex.def)             Requested size: 183.1215pt x 113.01312pt.
+
+
+[14 <./immagini/qq_lm.png> <./immagini/res_lm.png> <./immagini/res_val_oss_lm.png>]
+
+[15]
+<immagini/qq_glm.png, id=129, 526.96875pt x 325.215pt>
+File: immagini/qq_glm.png Graphic file (type png)
+<use immagini/qq_glm.png>
+Package pdftex.def Info: immagini/qq_glm.png  used on input line 665.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+<immagini/res_glm.png, id=130, 526.96875pt x 325.215pt>
+File: immagini/res_glm.png Graphic file (type png)
+<use immagini/res_glm.png>
+Package pdftex.def Info: immagini/res_glm.png  used on input line 672.
+(pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
+
+Overfull \hbox (11.5351pt too wide) in paragraph at lines 678--679
+[]\OT1/cmr/m/n/10 Sia il dia-gram-ma quantile-quantile \OT1/cmr/m/it/10 (Fi-gu-ra 31)\OT1/cmr/m/n/10 , sia il te-st di Shapiro-Wilk (W=0.972,
+ []
+
+<immagini/res_val_oss_glm.png, id=131, 526.96875pt x 325.215pt>
+File: immagini/res_val_oss_glm.png Graphic file (type png)
+<use immagini/res_val_oss_glm.png>
+Package pdftex.def Info: immagini/res_val_oss_glm.png  used on input line 682.
+(pdftex.def)             Requested size: 183.1215pt x 113.01312pt.
+
+
+[16 <./immagini/qq_glm.png> <./immagini/res_glm.png> <./immagini/res_val_oss_glm.png>]
+<immagini/lm_glm.png, id=138, 526.96875pt x 325.215pt>
+File: immagini/lm_glm.png Graphic file (type png)
+<use immagini/lm_glm.png>
+Package pdftex.def Info: immagini/lm_glm.png  used on input line 703.
+(pdftex.def)             Requested size: 256.36899pt x 158.22035pt.
+
+
+[17 <./immagini/lm_glm.png>]
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+[]\OT1/cmr/m/n/10 Britannica, T. Edi-tors of En-cy-clo-pae-dia (2025). Mus-sel.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 734--735
+[]\OT1/cmr/m/n/10 National Cen-ter for Bio-tech-no-lo-gy In-for-ma-tion (2025).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 734--735
+\OT1/cmr/m/n/10 Pub-Chem Com-pound Sum-ma-ry for CID 943, Ni-tra-te.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--737
+[]\OT1/cmr/m/n/10 Indiana De-part-ment of Na-tu-ral Re-sour-ces (2025). Fre-sh-wa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--737
+\OT1/cmr/m/n/10 ter Mus-sels. https://www.in.gov/dnr/fish-and-wildlife/wildlife-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--741
+[]\OT1/cmr/m/n/10 National Cen-ter for Bio-tech-no-lo-gy In-for-ma-tion (2025). Pub-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--741
+\OT1/cmr/m/n/10 Chem Com-pound Sum-ma-ry for CID 123332, Oxo-nium.
+ []
+
+
+
+[19] (univariate.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7337 strings out of 473897
- 124946 string characters out of 5726461
- 552993 words of memory out of 5000000
- 30150 multiletter control sequences out of 15000+600000
- 560022 words of font info for 43 fonts, out of 8000000 for 9000
+ 8203 strings out of 473897
+ 137409 string characters out of 5726461
+ 565220 words of memory out of 5000000
+ 30992 multiletter control sequences out of 15000+600000
+ 562147 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,14n,80p,1111b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on univariate.pdf (12 pages, 329931 bytes).
+ 57i,14n,80p,1111b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on univariate.pdf (20 pages, 789034 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
+ 208 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 

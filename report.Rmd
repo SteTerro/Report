@@ -662,9 +662,6 @@ ggplot(dati, aes(x = ln.area, y = specie)) +
 
 ################################################################
 
-#area-specie (significativo)
-cor.test(area,specie, method = "spearman")
-
 #ac-specie (non significativo)
 cor.test(ac,specie, method = "spearman")
 
@@ -688,6 +685,9 @@ cor.test(hy,specie,method = "spearman")
 
 #ln.area-specie (significativo)
 cor.test(ln.area,specie, method = "spearman")
+
+#area-specie (significativo)
+cor.test(area,specie, method = "spearman")
 
 #####################################################################################
 

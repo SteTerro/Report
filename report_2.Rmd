@@ -1,0 +1,479 @@
+---
+title: "report"
+output: pdf_document
+date: "2025-01-10"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+rm(list=ls())
+dati<-read.table("mussels2.txt",sep=",",header = T)
+attach(dati)
+library(ggplot2)
+```
+ac = Stepping stones to Alabama-Coosa 
+ap = Stepping stones to Apalachicola
+sv = Stepping stones to Savannah
+sl = Stepping stones to St. Lawrence
+sr = Solid Residue   
+hy = Hydronium   
+
+
+
+# analisi esplorative
+## univariate
+
+```{r}
+#specie
+summary(specie)
+sd(specie)
+IQR(specie)
+ggplot(data=dati, aes(x=factor(0),y=specie,fill=factor(0)))+
+  geom_violin(trim=F)+
+  geom_boxplot(width=0.2,fill="white")+
+  scale_fill_manual(values="cadetblue3",
+                    labels="boh")+
+  labs(x="", y="Species")+
+  theme(legend.position = "none")
+
+#area ma mettiamo il log.area
+#summary(area)
+#sd(area)
+#IQR(area)
+#boxplot(area)
+#ggplot(data=dati, aes(x=factor(0),y=area,fill=factor(0)))+
+  #geom_violin(trim=F)+
+  #geom_boxplot(width=0.2,fill="white")+
+  #scale_fill_manual(values="cadetblue3",
+                    #labels="boh")+
+  #labs(x="", y="Area")+
+  #theme(legend.position = "none")
+
+#Stepping stones to Alabama-Coosa 
+summary(ac)
+sd(ac)
+IQR(ac)
+ggplot(data=dati, aes(x=factor(0),y=ac,fill=factor(0)))+
+  geom_violin(trim=F)+
+  geom_boxplot(width=0.2,fill="white")+
+  scale_fill_manual(values="cadetblue3",
+                    labels="boh")+
+  labs(x="", y="Stepping stones to Alabama-Coosa")+
+  theme(legend.position = "none")
+
+#Stepping stones to Apalachicola
+summary(ap)
+sd(ap)
+IQR(ap)
+ggplot(data=dati, aes(x=factor(0),y=ap,fill=factor(0)))+
+  geom_violin(trim=F)+
+  geom_boxplot(width=0.2,fill="white")+
+  scale_fill_manual(values="cadetblue3",
+                    labels="boh")+
+  labs(x="", y="Stepping stones to Apalachicola")+
+  theme(legend.position = "none")
+
+#Stepping stones to Savannah
+summary(sv)
+sd(sv)
+IQR(sv)
+ggplot(data=dati, aes(x=factor(0),y=sv,fill=factor(0)))+
+  geom_violin(trim=F)+
+  geom_boxplot(width=0.2,fill="white")+
+  scale_fill_manual(values="cadetblue3",
+                    labels="boh")+
+  labs(x="", y="Stepping stones to Savannah")+
+  theme(legend.position = "none")
+
+#Stepping stones to St. Lawrence 
+summary(sl)
+sd(sl)
+IQR(sl)
+ggplot(data=dati, aes(x=factor(0),y=sl,fill=factor(0)))+
+  geom_violin(trim=F)+
+  geom_boxplot(width=0.2,fill="white")+
+  scale_fill_manual(values="cadetblue3",
+                    labels="boh")+
+  labs(x="", y="Stepping stones to St. Lawrence")+
+  theme(legend.position = "none")
+
+#concentrazione di nitrato
+summary(nitrate)
+sd(nitrate)
+IQR(nitrate)
+ggplot(data=dati, aes(x=factor(0),y=nitrate,fill=factor(0)))+
+  geom_violin(trim=F)+
+  geom_boxplot(width=0.2,fill="white")+
+  scale_fill_manual(values="cadetblue3",
+                    labels="boh")+
+  labs(x="", y="Nitrate concentration")+
+  theme(legend.position = "none")
+
+#residui solidi
+summary(sr)
+sd(sr)
+IQR(sr)
+ggplot(data=dati, aes(x=factor(0),y=sr,fill=factor(0)))+
+  geom_violin(trim=F)+
+  geom_boxplot(width=0.2,fill="white")+
+  scale_fill_manual(values="cadetblue3",
+                    labels="boh")+
+  labs(x="", y="Solid residue")+
+  theme(legend.position = "none")
+
+#idronio
+summary(hy)
+sd(hy)
+IQR(hy)
+ggplot(data=dati, aes(x=factor(0),y=hy,fill=factor(0)))+
+  geom_violin(trim=F)+
+  geom_boxplot(width=0.2,fill="white")+
+  scale_fill_manual(values="cadetblue3",
+                    labels="boh")+
+  labs(x="", y="Hydronium concentration")+
+  theme(legend.position = "none")
+
+#logaritmo dell'area è simmetrico e non ci sono valori anomali
+summary(ln.area)
+sd(ln.area)
+IQR(ln.area)
+ggplot(data=dati, aes(x=factor(0),y=ln.area,fill=factor(0)))+
+  geom_violin(trim=F)+
+  geom_boxplot(width=0.2,fill="white")+
+  scale_fill_manual(values="cadetblue3",
+                    labels="boh")+
+  labs(x="", y="Logarithm of the area")+
+  theme(legend.position = "none")
+```
+
+## bivariate
+```{r}
+library(car)
+scatterplotMatrix(dati[,2:11])
+cor(dati[,2:11],method = "spearman")
+
+#per vedere quali correlazioni sono significative
+sign <- matrix(NA, nrow = 10, ncol = 10)
+for (i in 1:10) {
+  for (j in 1:10) {
+    if (i != j) { 
+      h <- cor.test(dati[, i + 1], dati[, j + 1], method = "spearman") 
+      if (h$p.value < 0.05) {
+        sign[i, j] <- 1
+      } else {
+        sign[i, j] <- 0
+      }
+    }
+  }
+}
+sign
+
+#vanno messi i test per verificare se la correlazione è significativa
+
+#hy-specie 
+ggplot(dati, aes(x = hy, y = specie)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Hydronium concentration", y = "Number of Species")
+cor.test(hy,specie,method = "spearman")
+
+
+#sr-specie (non significativo)
+ggplot(dati, aes(x = sr, y = specie)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Solid Residue", y = "Number of Species")
+cor.test(sr,specie,method = "spearman")
+
+#nitrate -specie (non significativo)
+ggplot(dati, aes(x = nitrate, y = specie)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Nitrate Concentration", y = "Number of Species")
+cor.test(nitrate,specie, method = "spearman")
+
+#ac-specie (non significativo)
+ggplot(dati, aes(x = ac, y = specie)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Stepping Stones to Alabama-Coosa", y = "Number of Species")
+cor.test(ac,specie, method = "spearman")
+
+#ap-specie (non significativo)
+ggplot(dati, aes(x = ap, y = specie)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Stepping Stones to Apalachicola", y = "Number of Species")
+cor.test(ap,specie, method = "spearman")
+
+#sv-specie (non significativo)
+ggplot(dati, aes(x = sv, y = specie)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Stepping Stones to Savannah", y = "Number of Species")
+cor.test(sv,specie, method = "spearman")
+
+
+#sl-speice (non significativo)
+ggplot(dati, aes(x = sl, y = specie)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Stepping Stones to St. Lawrence", y = "Number of Species")
+cor.test(sl,specie, method = "spearman")
+
+#ln.area-specie (significativo)
+ggplot(dati, aes(x = ln.area, y = specie)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Logarithm of the area", y = "Number of Species")
+cor.test(ln.area,specie, method = "spearman")
+
+#ln.area-sr (non significativo)
+ggplot(dati, aes(x = ln.area, y = sr)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Log(Area)", y = "Solid Residue")
+cor.test(ln.area,sr, method = "spearman")
+
+#ln.area-hy (non significativo)
+ggplot(dati, aes(x = ln.area, y = hy)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(x = "Log(Area)", y = "Hydronium Concentration")
+cor.test(ln.area,hy, method = "spearman")
+
+```
+
+# modello lineare
+
+```{r}
+m1<-lm(specie~ln.area+ac+ap+sv+sl+nitrate+sr+hy)
+summary(m1)
+drop1(m1,test="F") #tolgo ac
+
+m2<-lm(specie~ln.area+ap+sv+sl+nitrate+sr+hy)
+summary(m2)
+drop1(m2,test="F") #tolgo sl
+
+m3<-lm(specie~ln.area+ap+sv+nitrate+sr+hy)
+summary(m3)
+drop1(m3,test="F") #tolgo sv
+
+m4<-lm(specie~ln.area+ap+nitrate+sr+hy)
+summary(m4)
+drop1(m4,test="F") #tolgo nitrate
+
+m5<-lm(specie~ln.area+ap+sr+hy)
+summary(m5)
+add1(m5,.~+(.)^2,test="F")
+
+m6<-lm(specie~ln.area+ap+sr+hy+ap:hy)
+summary(m6)
+#significativo solo log(area), Stepping stones to Apalachicola, residui solidi, Hydronium e interazione tra Stepping stones to Apalachicola e Hydronium
+
+AIC(m5)
+
+#modello con interazione
+#modello senza interazione
+res<-rstandard(m5)
+shapiro.test(res)#normalit dubbia
+p1=ggplot(data = data.frame(sample=res), aes(sample = sample)) +
+  stat_qq() +                   
+  stat_qq_line(color = "red") +  
+  labs(x = "Theorical quantiles", y = "Sample quantiles")
+
+p2=ggplot(dati, aes(x = fitted(m5), y = res)) +
+  geom_point(color = "blue", size = 2) +  
+  labs(x = "Estimated values",y = "Model residuals") #omoschedasticità sembra ok
+library(gridExtra)
+grid.arrange(p1,p2,ncol=2)
+
+ggplot(dati, aes(x = specie, y = fitted(m5))) +
+  geom_point(color = "blue", size = 2) +  
+  labs(x = "Species",y = "Estimated values") +
+  geom_abline(intercept = 0, slope = 1, color = "red")
+cor(fitted(m5),specie)
+
+
+#residui studentizzati
+res.conint<-rstandard(m6)
+shapiro.test(res.conint)#normalità ok
+ggplot(data = data.frame(sample=res.conint), aes(sample = sample)) +
+  stat_qq() +                   
+  stat_qq_line(color = "red") +  
+  labs(x = "Theorical quantiles", y = "Sample quantiles")
+
+ggplot(dati, aes(x = fitted(m6), y = res.conint)) +
+  geom_point(color = "blue", size = 2) +  
+  labs(x = "Estimated values",y = "Model residuals")
+#omoschedasticità sembra dubbia
+
+
+ggplot(dati, aes(x = specie, y = fitted(m6))) +
+  geom_point(color = "blue", size = 2) +  
+  labs(x = "Species",y = "Estimated values") +
+  geom_abline(intercept = 0, slope = 1, color = "red")
+cor(fitted(m6),specie)#correlazione migliore
+```
+
+# modello di poisson
+```{r}
+m7<-glm(specie~ln.area+ac+ap+sv+sl+nitrate+sr+hy,family = poisson)
+summary(m7)
+drop1(m7,test="Chisq") #tolgo sl
+
+m8<-glm(specie~ln.area+ap+sv+ac+nitrate+sr+hy,family = poisson)
+summary(m8)
+drop1(m8,test="Chisq") #tolgo ac
+
+m9<-glm(specie~ln.area+ap+sv+nitrate+sr+hy,family = poisson)
+summary(m9)
+drop1(m9,test="Chisq") #tolgo sv
+
+m10<-glm(specie~ln.area+ap+nitrate+sr+hy,family = poisson)
+summary(m10)
+drop1(m10,test="Chisq") #tolgo nitrate
+
+m11<-glm(specie~ln.area+ap+sr+hy,family = poisson)
+summary(m11)
+drop1(m11,test="Chisq")
+
+add1(m11,.~+(.)^2,test="Chisq")
+m12<-glm(specie~ln.area+ap+sr+hy+ap:hy,family = poisson)
+summary(m12)
+#significativo solo log(area), Stepping stones to Apalachicola, residui solidi, Hydronium e interazione tra Stepping stones to Apalachicola e Hydronium
+
+#validazione modello senza interazione
+#test modello nullo (da verificare fatto da chatgbt)
+delta_deviance <- m11$null.deviance - m11$deviance
+delta_df <- m11$df.null- m11$df.residual 
+p_value <- pchisq(delta_deviance, df = delta_df, lower.tail = FALSE)
+p_value
+
+#test modello saturo
+pchisq(m11$deviance, df = m11$df.residual, lower.tail = FALSE) #va messo?
+
+#normalità residui 
+res1<-residuals.glm(m11,type="pearson")
+shapiro.test(res1)
+ggplot(data = data.frame(sample=res1), aes(sample = sample)) +
+  stat_qq() +                   
+  stat_qq_line(color = "red") +  
+  labs(x = "Theorical quantiles", y = "Sample quantiles")
+
+#omoschedasticità
+ggplot(dati, aes(x = fitted(m11), y = res1)) +
+  geom_point(color = "blue", size = 2) +  
+  labs(x = "Estimated values",y = "Model residuals")
+grid.arrange(p3,p4,ncol=2)
+
+ggplot(dati, aes(x = specie, y = fitted(m11))) +
+  geom_point(color = "blue", size = 2) +  
+  labs(x = "Species",y = "Estimated values") +
+  geom_abline(intercept = 0, slope = 1, color = "red")
+cor(specie,fitted(m11,type="response"))
+
+#non c'è sovradispersione
+X2<-sum((residuals(m11, type="pearson"))^2)
+1-pchisq(X2,m11$df.residual)
+
+
+ggplot(dati) +
+  geom_point(aes(x = specie, y = fitted(f), color = "Normale"), size = 2, color="darkorchid3") +
+  geom_point(aes(x = specie, y = fitted(m11), color = "Poisson"), size = 2, color="darkorange2") +
+  # Linea diagonale di riferimento
+  geom_abline(intercept = 0, slope = 1, color = "black") +
+  # Etichette
+  labs(x = "Species", y = "Estimated values", color = "Modello")
+
+ggplot(dati) +
+  geom_point(aes(x = specie, y = fitted(f), color = "Normale"), size = 2) +
+  geom_point(aes(x = specie, y = fitted(m11), color = "Poisson"), size = 2) +
+  # Linea diagonale di riferimento
+  geom_abline(intercept = 0, slope = 1, color = "black") +
+  # Etichette
+  labs(x = "Species", y = "Estimated values", color = "Modello") + 
+  scale_color_manual(values = c("Normale" = "darkorchid3", "Poisson" = "darkorange2"))+
+  # Tema per spostare la leggenda in alto
+  theme(legend.position = "top")
+
+```
+
+
+
+## altre funzioni legame
+```{r}
+m13<-glm(specie~ln.area+ac+nitrate+sr+hy,family = poisson(link="identity"))
+summary(m13)
+
+
+m15<-glm(specie~ln.area+ap+nitrate+sr+hy,family = poisson(link="sqrt"))
+summary(m15)
+
+
+AIC(m13)
+AIC(m15)
+AIC(m11)#migliore
+```
+
+
+
+
+```{r}
+library(cluster)
+library(factoextra)
+
+# PCA
+pca_data <- dati[, c("ln.area", "nitrate", "hy", "sr")]
+pca_result <- prcomp(pca_data, scale = TRUE)
+fviz_pca_biplot(pca_result, repel = TRUE)
+
+# Clustering
+#metodo 1
+km1<-kmeans(pca_data,centers=3)
+explainde.var<-rep(NA,10)
+for(i in 1:10){
+  km<-kmeans(pca_data,centers=i)
+  explainde.var[i]<-km$betweenss/km$totss
+}
+plot(c(1:10),explainde.var,type="l")
+library(ggfortify)
+autoplot(km1,data=pca_data,frame=T)
+
+#metodo 2
+dist_matrix <- dist(pca_data)
+cluster_result <- hclust(dist_matrix, method = "complete")
+plot(cluster_result)
+
+```
+
+```{r}
+f<-lm(specie~area+ap+sr+hy)
+summary(f)
+add1(f,.~+(.)^2,test="F")
+drop1(f,test="F")
+AIC(f)
+res11<-rstandard(f)
+shapiro.test(res11)#normalit dubbia
+ggplot(data = data.frame(sample=res11), aes(sample = sample)) +
+  stat_qq() +                   
+  stat_qq_line(color = "red") +  
+  labs(x = "Theorical quantiles", y = "Sample quantiles")
+
+ggplot(dati, aes(x = fitted(f), y = res11)) +
+  geom_point(color = "blue", size = 2) +  
+  labs(x = "Estimated values",y = "Model residuals") #omoschedasticità sembra ok
+library(gridExtra)
+grid.arrange(p1,p2,ncol=2)
+
+ggplot(dati, aes(x = specie, y = fitted(f))) +
+  geom_point(color = "blue", size = 2) +  
+  labs(x = "Species",y = "Estimated values") +
+  geom_abline(intercept = 0, slope = 1, color = "red")
+cor(fitted(f),specie)
+
+```
+
