@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1738191966.46855 "c:/Users/Stefa/Documents/1-Stefano/1-Medica/1-Report/univariate.tex" "univariate.pdf" "univariate" 1738191968.34068 0
-  "C:/Users/Stefa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1738190206 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+["pdflatex"] 1738235785.04073 "c:/Users/Stefa/Documents/1-Stefano/1-Medica/1-Report/univariate.tex" "univariate.pdf" "univariate" 1738235787.04431 0
+  "C:/Users/Stefa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1738192085 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Stefa/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730110574 11948316 addb0175626f499b97611c21d939095f ""
   "C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -75,7 +75,7 @@
   "C:/Users/Stefa/AppData/Local/Programs/MiKTeX/tex/latex/upquote/upquote.sty" 1335534756 1088 517e01cde97c1c0baf72e69d43aa5a2e ""
   "C:/Users/Stefa/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/svgnam.def" 1729265222 4705 34614fec2d4cfd7794c82198c9076871 ""
   "C:/Users/Stefa/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/Stefa/Documents/1-Stefano/1-Medica/1-Report/univariate.tex" 1738191963 60038 483ea40fd761f79e11fae25c11492b6e ""
+  "c:/Users/Stefa/Documents/1-Stefano/1-Medica/1-Report/univariate.tex" 1738235784 60434 1534af876cfeb0dcda13d63ad4b8274c ""
   "immagini/ac_ap.png" 1737994796 11548 5af0383db8665eaac16272b867e0e5cb ""
   "immagini/ac_hy.png" 1737994841 11958 366c1c50403e7c5e044d045df32b0cf7 ""
   "immagini/ac_nitrate.png" 1737994832 11697 e1c98401611abcde0ca33a87b9960f74 ""
@@ -85,7 +85,7 @@
   "immagini/ap_nitrate.png" 1737994868 11560 082169a9b46877b4fb791a28ccebe091 ""
   "immagini/ap_sl.png" 1737994860 10387 1c8853782612a8f5d0ac5e13c88acc87 ""
   "immagini/ap_sv.png" 1737994851 12343 d2ba290be770924b2a5352b0235422e9 ""
-  "immagini/lm_glm.png" 1738180178 10485 fc1820976e29328e38cf8c5da7feb041 ""
+  "immagini/lm_glm.png" 1738231809 9513 558760f9d784f2c9c389a6de0a977dd7 ""
   "immagini/qq_glm.png" 1738090614 7995 0639196d2c921fa00b20da8cfa7d49b5 ""
   "immagini/qq_lm.png" 1738089058 8284 e327e9f456104cfa07268d863d231fd3 ""
   "immagini/res_glm.png" 1738090649 7036 26038bd8bb76bce1fac3cfc4746aa3ba ""
@@ -101,6 +101,7 @@
   "immagini/sv_nitrate.png" 1737994896 11289 eedaa6f8d6af7e56a7b2f5f35c997bc3 ""
   "immagini/sv_sl.png" 1737994887 11636 5f991e5a57886ce55ba25008fcf17635 ""
   "immagini/unipd.png" 1738190322 378514 c082e460c1bc30b1cc9c3c963131dde0 ""
+  "immagini/usa.png" 1738232910 154615 fd6d323b7aa30e6489a92c35f7f75454 ""
   "immagini/vp_ac.png" 1737799528 8453 3cb9d520e7bb8fe6dc466ff3b76cdda0 ""
   "immagini/vp_ap.png" 1737799589 8030 978ba10eaf3267e92f555ff74d8593fd ""
   "immagini/vp_area.png" 1737805608 5942 195683b6419c1f00df5b8f7a5256ffc8 ""
@@ -111,8 +112,8 @@
   "immagini/vp_sl.png" 1737799615 8029 8a0d33adcf2cf44f600404f3ea649b50 ""
   "immagini/vp_species.png" 1737799508 6058 8b370570e2b13d2dca579e07931b2d71 ""
   "immagini/vp_sv.png" 1737799601 7220 780ddb07821bdf1a31a0ac81b7d0990e ""
-  "univariate.aux" 1738191968 8648 c74643010a9c9204dd86faf4d358b38e "pdflatex"
-  "univariate.tex" 1738191963 60038 483ea40fd761f79e11fae25c11492b6e ""
+  "univariate.aux" 1738235786 9732 3bdb19e1cfc4bc96ee049608bb94b224 "pdflatex"
+  "univariate.tex" 1738235784 60434 1534af876cfeb0dcda13d63ad4b8274c ""
   (generated)
   "univariate.aux"
   "univariate.log"
