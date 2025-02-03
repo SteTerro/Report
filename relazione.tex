@@ -67,7 +67,7 @@
 
 Il dataset \texttt{mussels}\textit{[1]}, contiene le misurazioni di varie specie di molluschi bivalvi  in 44 fiumi facenti parte della East Coast degli Stati Uniti d'America.\\ 
 Il termine “mussels” è un termine generico che indica varie famiglie di molluschi bivalvi, sia di acqua dolce che di acqua salata, che hanno in comune un guscio allungato e asimmetrico\textit{[2]}. In particolare, nello studio sono state analizzate 79 specie di molluschi, appartenenti alla sottoclasse dei \textit{Palaeoheterodonta} e alla famiglia delle \textit{Unionidae}, detti anche cozze di acqua dolce. 
-I fiumi osservati fanno parte della East Coast degli USA e comprendono i fiumi compresi tra la baia di St. Lawrence e lo stato dell'Alabama. Dunque, sono presenti sia fiumi che sfociano nell'Atlantico orientale, sia i fiumi che sfociano nel Golfo del Messico \textit{(Figura 1)}. 
+I fiumi osservati fanno parte della costa orientale e sud-orientale degli USA e comprendono i fiumi tra la baia di St. Lawrence e lo stato dell'Alabama. Dunque, sono presenti sia fiumi che sfociano nell'Atlantico orientale, sia i fiumi che sfociano nel Golfo del Messico \textit{(Figura 1)}. 
 
 \begin{figure}[H]
     \centering
@@ -90,7 +90,7 @@ I fiumi scelti sono: il sistema fluviale dell'Alabama-Coose \textit{(AC)}, il fi
 Per valutare la qualità delle acque sono state misurate tre variabili: 
 \texttt{Nitrate}, che rappresenta la concentrazione in \textit{parti per milione} di nitrato \texttt{NO\textsubscript{3}}\textit{[3]} nelle acque del fiume. Questo ione è fondamentale per la produzione di alghe e batteri che rappresentano la principale fonte di cibo per le cozze\textit{[4]}; 
 \texttt{Solid Residue}, che rappresenta il residuo fisso nelle acque, ovvero la quantità in \textit{parti per milione} di sali minerali e oligoelementi presenti in soluzione o sospensione nell'acqua del fiume. Questa variabile è stata misurata facendo prima evaporare l'acqua a 180\textsuperscript{o} C per una ora e, successivamente, pesando ciò che rimane. Risulta utile perchè permette di valutare la concentrazione di alcuni sali come il sodio, il potassio, il calcio e il magnesio e la salinità delle acque; 
-\texttt{Hydronium}, la concentrazione in \textit{grammi-ioni per $10^7$} di idronio (\textit{H\textsubscript{3}O\textsuperscript{+}}) nell'acqua \textit{[6]}. Questa quantità è ottenuta tramite l'operazione inversa del calcolo del pH e rappresenta l'antilogaritmo in base 10 del suo negativo. Questa misurazione torna utile in quanto il pH, e in particolare la presenza dello ione idrogeno (\textit{H\textsuperscript{+}}), è un importante fattore nella calcificazione del guscio delle cozze\textit{[5]}. Non viene misurato direttamente lo ione idrogeno (detto anche idrone) perchè non può esistere in soluzione acquosa allo stato libero. \\
+\texttt{Hydronium}, è la concentrazione in \textit{grammi-ioni per $10^7$} di idronio (\textit{H\textsubscript{3}O\textsuperscript{+}}) nell'acqua\textit{[6]}. Questa quantità è ottenuta tramite l'operazione inversa del calcolo del pH e rappresenta l'antilogaritmo in base 10 del suo negativo. Questa misurazione torna utile in quanto il pH, e in particolare la presenza dello ione idrogeno (\textit{H\textsuperscript{+}}), è un importante fattore nella calcificazione del guscio delle cozze\textit{[5]}. Non viene misurato direttamente lo ione idrogeno (detto anche idrone) perchè non può esistere in soluzione acquosa allo stato libero. \\
 Le analisi sono state eseguite con il software R nella versione 4.2.3.\\\textit{(https://www.r-project.org/)}.\\ Il livello di significatività è fissato al 5\%.
 
 % \vskip 55pt 
@@ -346,7 +346,7 @@ Il test per verificare se la correlazione è significativa (S=6483.6, p-value$<$
 
 Dal diagramma di dispersione tra la distanza dei vari fiumi osservati dal sistema fluviale Alabama-Coose e dal fiume Saint Lawrence \textit{(Figura 16)} si nota una relazione negativa, abbastanza lineare, tra le due variabili.  
 La correlazione di Spearman è -0.97, indicando una forte relazione negativa tra le due variabili; dunque all'aumentare della distanza di un fiume dal sistema fluviale Alabama-Coose diminuisce la distanza dal fiume St. Lawrence. 
-Questo è dovuto dalla posizione dei due fiumi. Essi, infatti, si trovano alle due estremità della regione osservata, con il fiume St. Lawrence situato più a Nord-Est e il sistema fluviale Alabama-Coose situato invece a Sud-Ovest. Quindi allontanandosi dal sistema fluviale Alabama-Coose ci si avvicina al fiume St. Lawrence, e viceversa.
+Questo è dovuto dalla posizione dei due fiumi. Essi, infatti, si trovano alle due estremità della regione osservata, con il fiume St. Lawrence situato a Nord-Est e il sistema fluviale Alabama-Coose situato invece a Sud-Ovest. Quindi allontanandosi dal sistema fluviale Alabama-Coose ci si avvicina al fiume St. Lawrence, e viceversa.
 Il test per verificare se la correlazione è significativa (S=28075, p-value$<$0.001) porta a rifiutare l'ipotesi che la correlazione non sia significativa.
 
 \begin{figure}[H]
@@ -394,12 +394,12 @@ Il test per verificare se la correlazione è significativa (S=9506.5, p-value=0.
 
 Dal diagramma di dispersione tra la distanza dei vari fiumi osservati dal fiume Apalachicola e dal fiume Savannah \textit{(Figura 19)} si nota una relazione tendenzialmente positiva, ma molto curvilinea tra le due variabili. 
 Il grafico mostra una situazione simile a quella osservata tra la distanza dei fiumi dal sistema fluviale Alabama-Coose e dal fiume Savannah in \textit{Figura 15}. Anche in questo caso, infatti, si osserva nella prima parte un divergere delle distanze e successivamente un crescere lineare delle stesse. 
-Ciò è dovuto alla posizione del fiume Apalachicola che è molto vicino al sistema fluviale Alabama-Coose. Questo implica un comportamento simile.
+Ciò è causato dalla vicinanza del fiume Apalachicola con il sistema fluviale Alabama-Coose, che ne determina un comportamento simile.
 La correlazione di Spearman è 0.55, indicando una modesta relazione positiva tra le due variabili.  
 Il test per verificare se la correlazione è significativa (S=6436.4, p-value$<$0.001) porta a rifiutare l'ipotesi che la correlazione non sia significativa.
 
 Dal diagramma di dispersione tra la distanza dei vari fiumi osservati dal fiume Apalachicola e dal fiume Saint Lawrence \textit{(Figura 20)} si evince una situazione analoga a quella discussa precedentemente.
-Si nota una relazione negativa, abbastanza lineare, tra le due variabili molto simile a quella in \textit{Figura 16}
+Si nota una relazione negativa, abbastanza lineare, tra le due variabili molto simile a quella in \textit{Figura 16}.
 La correlazione di Spearman è -0.97, indicando una forte relazione negativa tra le due variabili; dunque all'aumentare della distanza di un fiume dal sistema fluviale Apalachicola diminuisce la distanza dal fiume St. Lawrence. 
 Il test per verificare se la correlazione è significativa (S=27892, p-value$<$0.001) porta a rifiutare l'ipotesi che la correlazione non sia significativa.
 
@@ -424,7 +424,7 @@ Dal diagramma di dispersione tra la distanza dei vari fiumi osservati dal fiume 
 La correlazione di Spearman è 0.40, indicando una lieve relazione positiva tra le due variabili. 
 Il test per verificare se la correlazione è significativa (S=8454.7, p-value=0.006) porta a rifiutare l'ipotesi che la correlazione non sia significativa.
 
-Dal diagramma di dispersione tra la distanza dei vari fiumi osservati dal fiume Apalachicola e la concentrazione di idronio \textit{(Figura 22)} si nota come la maggior parte dei fiumi sia schiacciata nella prima parte del grafico, con valori bassi di concentrazione di idronio. Solo 5 fiumi, presentano valori molto alti di concentrazione di idronio.
+Dal diagramma di dispersione tra la distanza dei vari fiumi osservati dal fiume Apalachicola e la concentrazione di idronio \textit{(Figura 22)} si nota come la maggior parte dei fiumi sia siutata nella prima parte del grafico, con valori bassi di concentrazione di idronio. Solo 5 fiumi, presentano valori elevati di concentrazione di idronio.
 La correlazione di Spearman è 0.33, indicando una lieve relazione positiva tra le due variabili. 
 Il test per verificare se la correlazione è significativa (S=9438.8, p-value=0.026) porta a rifiutare l'ipotesi che la correlazione non sia significativa.
 
@@ -445,13 +445,13 @@ Il test per verificare se la correlazione è significativa (S=9438.8, p-value=0.
     \end{minipage}
 \end{figure}
 
-Dal diagramma di dispersione tra la distanza dei vari fiumi osservati dal fiume Savannah e dal fiume St. Lawrence \textit{(Figura 23)} si nota una relazione inizialmente negativa che, una volta raggiunto il fiume Savannah, cambia drasticamente e cresce positivamente. 
+Dal diagramma di dispersione tra la distanza dei vari fiumi osservati dal fiume Savannah e dal fiume St. Lawrence \textit{(Figura 23)} si nota una relazione inizialmente negativa che, una volta raggiunto il fiume Savannah, cambia direzione e cresce positivamente. 
 Questo andamento è dovuto alla posizione dei due fiumi. Entrambi i fiumi sfociano nell'Atlantico; il fiume St. Lawrence nasce più a Nord, nella regione dei Grandi Laghi e sfocia in Canada, il fiume Savannah invece è situato più a Sud, in Carolina del Sud. La relazione è inizialmente negativa poiché allontanandosi dal fiume St. Lawrence, e procedendo verso Sud, ci si avvicina al fiume Savannah. Una volta raggiunto il fiume Savannah, le distanze tra i due fiumi aumenteranno in parallelo.
 La correlazione di Spearman è -0.51, indicando una relazione negativa tra le due variabili.  
 Il test per verificare se la correlazione è significativa (S=21406, p-value=0.0004) porta a rifiutare l'ipotesi che la correlazione non sia significativa.
 
-Dal diagramma di dispersione tra la distanza dei vari fiumi osservati dal fiume Savannah e la concentrazione di nitrato nelle acque dei fiumi osservati \textit{(Figura 24)} si nota un andamento simile a quello della \textit{Figura 17} e della \textit{Figura 21}, anche se la curva LOESS appare meno definita. 
-Come nella figure precedenti, i fiumi più vicini al fiume Savannah presentano una bassa concentrazione di nitrato, seguita da un aumento di essa mentre ci si allontana dal fiume e infine una diminuzione della concentrazione di nitrato.
+Dal diagramma di dispersione tra la distanza dei vari fiumi osservati dal fiume Savannah e la concentrazione di nitrato nelle acque dei fiumi osservati \textit{(Figura 24)} si nota un andamento simile a quello della \textit{Figura 17} e della \textit{Figura 21}, anche se la curva LOESS appare meno accentuata. 
+Come nella figure precedenti, i fiumi più vicini al fiume Savannah presentano una bassa concentrazione di nitrato, seguita da un suo aumento mentre ci si allontana dal fiume e, infine, una seconda diminuzione della concentrazione di nitrato.
 La correlazione di Spearman è 0.36, di poco inferiore a quella tra \texttt{Stepping stones to AC} e \texttt{Nitrate} \texttt{Stepping stones to AP} e \texttt{Nitrate} rispettivamente di 0.42 e 0.40. La relazione è lieve ed è positiva. 
 Il test per verificare se la correlazione è significativa (S=9025.2, p-value=0.015) porta a rifiutare l'ipotesi che la correlazione non sia significativa.
 
@@ -472,12 +472,12 @@ Il test per verificare se la correlazione è significativa (S=9025.2, p-value=0.
     \end{minipage}
 \end{figure}
 
-IL diagramma di dispersione tra la distanza dei vari fiumi osservati dal fiume St. Lawrence e la concentrazione di nitrato nelle acque dei fiumi osservati \textit{(Figura 25)} mostra una situazione capovolta rispetto a quella osservata nelle \textit{Figura 17}, \textit{Figura 21}, \textit{Figura 24}.
-Il capovolgimento è dovuto al fatto che il fiume St. Lawrence è situato più a Nord-Est rispetto agli altri fiumi osservati. Quindi i valori che si trovavano distanti dagli altri fiumi, risultano vicini al fiume St. Lawrence e viceversa. 
-La correlazione di Spearman è -0.41. La correlazione è negativa, ma al netto del segno, è in linea con le correlazioni tra gli altri fiumi e la concentrazione di nitrato.  
+IL diagramma di dispersione tra la distanza dei vari fiumi osservati dal fiume St. Lawrence e la concentrazione di nitrato nelle acque dei fiumi osservati \textit{(Figura 25)} mostra una situazione capovolta rispetto a quella osservata nelle \textit{Figura 17}, \textit{Figura 21} e \textit{Figura 24}.
+Il capovolgimento è dovuto alla posizione più settentrionale del fiume St. Lawrence rispetto agli altri fiumi osservati. I valori che si trovavano distanti dagli altri fiumi, risultano vicini al fiume St. Lawrence e viceversa. 
+La correlazione di Spearman è -0.41. La correlazione è negativa, ma, al netto del segno, è in linea con le correlazioni tra gli altri fiumi e la concentrazione di nitrato.  
 Il test per verificare se la correlazione è significativa (S=20062, p-value=0.005) porta a rifiutare l'ipotesi che la correlazione non sia significativa.
 
-Dal diagramma di dispersione tra la distanza dei vari fiumi osservati dal fiume St. Lawrence e la concentrazione di idronio \textit{(Figura 26)} si nota come la situazione, analogamente alla \textit{Figura 25}, sia capovolta rispetto a quella osservata nelle \textit{Figura 18} e \textit{Figura 22}.
+Dal diagramma di dispersione tra la distanza dei vari fiumi osservati dal fiume St. Lawrence e la concentrazione di idronio \textit{(Figura 26)} si nota come un andamento, analogamente alla \textit{Figura 25}, capovolto rispetto a quello osservata nelle \textit{Figura 18} e \textit{Figura 22}.
 La correlazione di Spearman è -0.35, indicando una lieve relazione negativa tra le due variabili. 
 Il test per verificare se la correlazione è significativa (S=19135, p-value=0.02) porta a rifiutare l'ipotesi che la correlazione non sia significativa.
 
@@ -498,14 +498,14 @@ Il test per verificare se la correlazione è significativa (S=19135, p-value=0.0
     \end{minipage}
 \end{figure}
 
-Dal diagramma di dispersione tra la concentrazione di nitrato e la concentrazione di residuo fisso nelle acque dei fiumi osservati \textit{(Figura 27)} si osserva un iniziale aumento della concentrazione di idronio all'aumentare della concentrazione di residuo fisso. Tuttavia, dopo un certo punto (intorno al valore 150 del residuo fisso), la concentrazione di nitrato inizia a diminuire.
+Dal diagramma di dispersione tra la concentrazione di nitrato e la concentrazione di residuo fisso nelle acque dei fiumi \textit{(Figura 27)} si osserva un iniziale aumento della concentrazione di idronio all'aumentare della concentrazione di residuo fisso. Tuttavia, dopo un certo punto (intorno al valore 150 del residuo fisso), la concentrazione di nitrato inizia a diminuire.
 La correlazione di Spearman è 0.50, indicando una modesta relazione positiva tra le due variabili. 
 Il test per verificare se la correlazione è significativa (S=7386.3, p-value=0.001) porta a rifiutare l'ipotesi che la correlazione non sia significativa.
 
 Dal diagramma di dispersione tra la concentrazione di residuo fisso e la variabile \texttt{Hydronium} \textit{(Figura 28)} si nota una relazione molto ondulatoria tra le due variabili.
 La correlazione è nel complesso (tranne in una piccola parte del grafico tra i valori 2 e 3) negativa.
 La correlazione di Spearman è -0.55, confermando la presenza di una modesta relazione negativa tra le due variabili. Dunque, all'aumentare della concentrazione di residuo fisso diminuisce la concentrazione di idronio.
-Questo comportamento ha molto senso in quanto nel residuo fisso sono presenti alcuni sali minerali, come bicarbonato (\textit{HCO\textsubscript{3}\textsuperscript{-}}), carbonato (\textit{CO\textsubscript{3}\textsuperscript{2-}}) o cationi metallici (\textit{Ca\textsubscript{2+}, o Mg\textsubscript{2+}}) che possono causare un effetto tampone neutralizzando gli ioni idrogeno, causando così una diminuzione della concentrazione di H\textsuperscript{+} nell'acqua e a sua volta del pH.
+Questo comportamento ha molto senso in quanto nel residuo fisso sono presenti alcuni sali minerali, come bicarbonato (\textit{HCO\textsubscript{3}\textsuperscript{-}}), carbonato (\textit{CO\textsubscript{3}\textsuperscript{2-}}) e cationi metallici (\textit{Ca\textsuperscript{2+}, o Mg\textsuperscript{2+}}) che possono portare ad un effetto tampone, neutralizzando gli ioni idrogeno, e causando una diminuzione della concentrazione di ione idrogeno nell'acqua e, a sua volta, anche del pH.
 Il test per verificare se la correlazione è significativa (S=21968, p-value$<$0.001) porta a rifiutare l'ipotesi che la correlazione non sia significativa.
 
 \newpage
@@ -591,7 +591,7 @@ L'indice di determinazione $R^2$ è pari a 0.522, indicando un moderato adattame
     \caption{Diagramma di dispersione dei \\valori stimati rispetto ai valori osservati}
 \end{figure}
 
-Per valutare la bontà di adattamento del modello stimato, si confrontano i valori osservati della variabile specie con quelli predetti dal modello \textit{(Figura 31)}. Il grafico mostra che i punti si distribuiscono principalmente lungo la bisettrice. Questo suggerisce un buon adattamento complessivo del modello ai dati. La correlazione tra i valori osservati e quelli predetti è pari a 0.722, indicando una forte relazione positiva. Questo risultato suggerisce che il modello riesce a spiegare una parte significativa della variabilità del numero di specie.
+Per valutare la bontà di adattamento del modello stimato, si confrontano i valori osservati di \texttt{Species} con quelli predetti dal modello \textit{(Figura 31)}. Il grafico mostra che i punti si distribuiscono principalmente lungo la bisettrice. Questo suggerisce un buon adattamento complessivo del modello ai dati. La correlazione tra i valori osservati e quelli predetti è pari a 0.722, indicando una forte relazione positiva. Questo risultato suggerisce che il modello riesce a spiegare una parte significativa della variabilità del numero di specie.
 
 Nel corso dell'analisi, è stato valutato un modello alternativo in cui la variabile \texttt{Stepping stones to AC} è stata inclusa al posto di \texttt{Stepping stones to AP}. Questa scelta è stata motivata dal fatto che, una volta rimosso il termine \texttt{Stepping stones to AP}, la variabile \texttt{Stepping stones to AC} risultava significativa. Tuttavia, tale modello è stato successivamente scartato in quanto presentava un valore di AIC maggiore (AIC = 261.12) rispetto al modello originale (AIC = 260.918), indicando una minore bontà di adattamento ai dati. Pertanto, si è preferito mantenere il modello iniziale.
 
@@ -601,14 +601,14 @@ Nel corso dell'analisi, è stato valutato un modello alternativo in cui la varia
 \end{flushleft}
 \vskip 10pt
 
-Viene adattato un modello lineare generalizzato che assume che la variabile specie segua una distribuzione di Poisson con funzione di legame canonico\textit{[8]}. In questo caso, il modello teorico assume che la media sia $\mu_i=e^{\eta_i}$ dove
+Viene adattato un modello lineare generalizzato che assume che la variabile \texttt{Species} segua una distribuzione di Poisson con funzione di legame canonico\textit{[8]}. In questo caso, il modello teorico assume che la media sia $\mu_i=e^{\eta_i}$ dove
 \[
 \eta_i=\alpha_0+\alpha_1 \cdot ln(Area)+\alpha_2\cdot AP +\alpha_3\cdot SR+\alpha_4\cdot H^+ ,
 \]
 e $(\alpha_0,\alpha_1,\alpha_2,\alpha_3,\alpha_4)^T$ è il vettore dei parametri ignoti di regressione.
 
-Anche in questo caso il modello è stato semplificato in fase di analisi; sono state eliminate le variabili \texttt{Stepping stones to SL} (p-value = 0.829), \texttt{Stepping stones to AC} (p-value = 0.891), \texttt{Stepping stones to SV} (p-value = 0.138), \texttt{nitrate} (p-value = 0.083).  
-È stata considerata l'opportunità di includere un termine di interazione, questa volta tra la disteanza dal fiume Apalachicola (\texttt{Stepping stones to AP}) e la concentrazione di idronio (\texttt{Hydronium}) (p-value = 0.001). Tuttavia, si è deciso di non inserirlo, poiché l'analisi dei residui non ha fornito risultati soddisfacenti.
+Anche in questo caso il modello è stato semplificato in fase di analisi; sono state eliminate le variabili \texttt{Stepping stones to SL} (p-value = 0.829), \texttt{Stepping stones to AC} (p-value = 0.891), \texttt{Stepping stones to SV} (p-value = 0.138), \texttt{Nitrate} (p-value = 0.083).  
+È stata considerata l'opportunità di includere un termine di interazione, questa volta tra la distanza dal fiume Apalachicola (\texttt{Stepping stones to AP}) e la concentrazione di idronio (\texttt{Hydronium}) (p-value = 0.001). Tuttavia, si è deciso di non inserirlo, poiché l'analisi dei residui non ha fornito risultati soddisfacenti.
 Per il modello in esame, è stato adottato il logaritmo dell'area come variabile esplicativa, in quanto questa trasformazione ha portato a un miglioramento del modello. In particolare, il valore dell'AIC è diminuito da 245.83 a 241.54, indicando una migliore bontà di adattamento ai dati. Inoltre, la devianza residua è risultata ridotta, passando da 53.801 a 49.509, suggerendo una migliore capacità del modello di spiegare la variabilità del numero di specie.
 
 Il modello stimato è riportato in \textit{Tabella 4}.
@@ -682,7 +682,7 @@ Sono state valutate anche altre funzioni di legame, tra cui la radice quadrata (
 \end{flushleft}
 \vskip 10pt
 
-Il numero di specie di cozze è risultato significativamente influenzato dall'area di drenaggio del fiume, dalla distanza dal fiume Apalachicola, dalla quantità di minerali in soluzione e dalla concentrazione di ioni idronio.
+Il numero di specie di cozze è risultato significativamente influenzato dall'area di drenaggio del fiume, dalla distanza dal fiume Apalachicola, dalla quantità di residui fissi in soluzione e dalla concentrazione di ioni idronio.
 
 \begin{figure}[H]
     \centering
@@ -695,7 +695,7 @@ Entrambi i modelli stimati mostrano un comportamento complessivamente simile \te
 
 Confrontando gli AIC dei tre modelli, si osserva che il modello di Poisson presenta un valore di AIC inferiore (AIC = 241.537) rispetto al modello lineare normale multiplo (AIC = 260.912). Di conseguenza, in base al criterio di Akaike, si preferisce il modello di Poisson.
 
-Dal punto di vista pratico, i risultati suggeriscono che politiche di conservazione e gestione degli ecosistemi fluviali dovrebbero tenere conto di questi fattori. Ad esempio, la riduzione della concentrazione di ioni idronio e del residuo fisso potrebbe favorire un aumento della biodiversità delle specie di cozze. Inoltre, la vicinanza al fiume Apalachicola sembra svolgere un ruolo chiave nel sostenere un numero maggiore di specie, evidenziando l'importanza di preservare i diversi habitat fluviali.
+Dal punto di vista pratico, i risultati suggeriscono che politiche di conservazione e gestione degli ecosistemi fluviali dovrebbero tenere conto di questi fattori. Ad esempio, la riduzione della concentrazione di ioni idronio (e dunque del ph dell'acqua) e del residuo fisso potrebbe favorire un aumento della biodiversità delle specie di cozze. Inoltre, la vicinanza al fiume Apalachicola sembra svolgere un ruolo chiave nella presenza di un numero maggiore di specie, evidenziando l'importanza di preservare i diversi habitat fluviali.
 
 Data l'importanza ecologica delle cozze di acqua dolce nel corso degli anni sono state oggetto di numerose ricerche.
 Esse hanno la capacità di filtrare l'acqua e alcune tossine svolgendo, fondamentalmente, un ruolo di depuratori naturali.
@@ -713,27 +713,33 @@ O, ancora, dato che il dataset in analisi risale al 1974, uno studio potrebbe es
 \begin{thebibliography}{9}
 
 \bibitem{studio_originale}
-Sepkoski J.J, Michael A. (1974). Distribution of Freshwater Mussels: Coastal Rivers as Biogeographic Islands, Systematic Biology, Volume 23, Issue 2, Pages 165-188. Rex.
+Sepkoski J.J, Michael A. (1974). \textit{Distribution of Freshwater Mussels: Coastal Rivers as Biogeographic Islands, Systematic Biology}, Volume 23, Issue 2, Pages 165-188. Rex.
+
 \bibitem{Mussels_definizione}
-Britannica, T. Editors of Encyclopaedia (2025). Mussel. https://www.britannica.com/animal/mussel
+Britannica, T. Editors of Encyclopaedia (2025). \textit{Mussel}. \\https://www.britannica.com/animal/mussel
+
 \bibitem{nitrate}
-National Center for Biotechnology Information (2025). PubChem Compound Summary for CID 943, Nitrate. https://pubchem.ncbi.nlm.nih.gov/compound/Nitrate.
+National Center for Biotechnology Information (2025). \textit{PubChem Compound Summary for CID 943, Nitrate}. \\https://pubchem.ncbi.nlm.nih.gov/compound/Nitrate.
+
 \bibitem{mussels_cibo}
-Indiana Department of Natural Resources (2025). Freshwater Mussels. https://www.in.gov/dnr/fish-and-wildlife/wildlife-resources/animals/freshwater-mussels/
+Indiana Department of Natural Resources (2025). \textit{Freshwater Mussels}. \\https://www.in.gov/dnr/fish-and-wildlife/wildlife-resources/animals/freshwater-mussels/
+
 \bibitem{shell}
-Pfister C.A., Roy K., Wootton J.T., McCoy S.J., Paine R.T., Suchanek T.H., Sanford E. (2016) Historical baselines and the future of shell calcification for a foundation species in a changing ocean. Proc Biol Sci.
+Pfister C.A., Roy K., Wootton J.T., McCoy S.J., Paine R.T., Suchanek T.H., Sanford E. (2016). \textit{Historical baselines and the future of shell calcification for a foundation species in a changing ocean}. Proc Biol Sci.
+
 \bibitem{idronio}
-National Center for Biotechnology Information (2025). PubChem Compound Summary for CID 123332, Oxonium. https://pubchem.ncbi.nlm.nih.gov/compound/Oxonium.
+National Center for Biotechnology Information (2025). \textit{PubChem Compound Summary for CID 123332, Oxonium}.\\ https://pubchem.ncbi.nlm.nih.gov/compound/Oxonium.
+
 \bibitem{modelli_1}
-Grigoletto M., Pauli F., Ventura L. (2017). Modello Lineare. Teoria e applicazione con R, Cap 4. Springer.
+Grigoletto M., Pauli F., Ventura L. (2017). \textit{Modello Lineare. Teoria e applicazione con R}, Cap 4. Springer.
 
 \bibitem{modelli_2}
-Salvan A., Sartori N., Pace L. (2020). Modelli Lineari Generalizzati, Cap 5. Springer.
+Salvan A., Sartori N., Pace L. (2020). \textit{Modelli Lineari Generalizzati}, Cap 5. Springer.
 
 \bibitem{studio_1993}
-Williams J., Jr Melvin, Cummings K., Harris J., Neves R. (1993). Conservation Status of Freshwater Mussels of The United States and Canada. Fisheries. 
+Williams J., Jr Melvin, Cummings K., Harris J., Neves R. (1993). \textit{Conservation Status of Freshwater Mussels of The United States and Canada}. Fisheries. 
 \bibitem{studio_2016}
-Lopes-Lima M., Sousa R., Geist J., Aldridge D.C., Araujo R., Bergengren J., Bespalaya Y., Bódis E., Burlakova L., Van Damme D., Douda K., Froufe E., Georgiev D., Gumpinger C., Karatayev A., Kebapçi Ü., Killeen I., Lajtner J., Larsen B.M., Lauceri R., Legakis A., Lois S., Lundberg S., Moorkens E., Motte G., Nagel K.O., Ondina P., Outeiro A., Paunovic M., Prié V., von Proschwitz T., Riccardi N., Rudzīte M., Rudzītis M., Scheder C., Seddon M., Şereflişan H., Simić V., Sokolova S., Stoeckl K., Taskinen J., Teixeira A., Thielen F., Trichkova T., Varandas S., Vicentini H., Zajac K., Zajac T., Zogaris S. (2017) Conservation status of freshwater mussels in Europe: state of the art and future challenges. Biol Rev Camb Philos Soc.
+Lopes-Lima M., Sousa R., Geist J., Aldridge D.C., Araujo R., Bergengren J., Bespalaya Y., Bódis E., Burlakova L., Van Damme D., Douda K., Froufe E., Georgiev D., Gumpinger C., Karatayev A., Kebapçi Ü., Killeen I., Lajtner J., Larsen B.M., Lauceri R., Legakis A., Lois S., Lundberg S., Moorkens E., Motte G., Nagel K.O., Ondina P., Outeiro A., Paunovic M., Prié V., von Proschwitz T., Riccardi N., Rudzīte M., Rudzītis M., Scheder C., Seddon M., Şereflişan H., Simić V., Sokolova S., Stoeckl K., Taskinen J., Teixeira A., Thielen F., Trichkova T., Varandas S., Vicentini H., Zajac K., Zajac T., Zogaris S. (2017). \textit{Conservation status of freshwater mussels in Europe: state of the art and future challenges}. Biol Rev Camb Philos Soc.
 
 
 

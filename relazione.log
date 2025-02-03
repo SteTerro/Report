@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  30 JAN 2025 12:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  3 FEB 2025 14:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Stefa/Documents/1-Stefano/1-Medica/1-Report/univariate.tex
-(c:/Users/Stefa/Documents/1-Stefano/1-Medica/1-Report/univariate.tex
+**c:/Users/Stefa/Documents/1-Stefano/1-Medica/1-Report/relazione.tex
+(c:/Users/Stefa/Documents/1-Stefano/1-Medica/1-Report/relazione.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
 (C:\Users\Stefa\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -283,8 +283,8 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count307
 \l__pdf_internal_box=\box60
-) (univariate.aux)
-\openout1 = `univariate.aux'.
+) (relazione.aux)
+\openout1 = `relazione.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
@@ -603,20 +603,19 @@ File: immagini/sl_hy.png Graphic file (type png)
 <use immagini/sl_hy.png>
 Package pdftex.def Info: immagini/sl_hy.png  used on input line 469.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-
-
-[12 <./immagini/sl_nitrate.png> <./immagini/sl_hy.png>]
-<immagini/sr_nitrate.png, id=109, 526.96875pt x 325.215pt>
+<immagini/sr_nitrate.png, id=103, 526.96875pt x 325.215pt>
 File: immagini/sr_nitrate.png Graphic file (type png)
 <use immagini/sr_nitrate.png>
 Package pdftex.def Info: immagini/sr_nitrate.png  used on input line 488.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
-<immagini/sr_hy.png, id=110, 526.96875pt x 325.215pt>
+<immagini/sr_hy.png, id=104, 526.96875pt x 325.215pt>
 File: immagini/sr_hy.png Graphic file (type png)
 <use immagini/sr_hy.png>
 Package pdftex.def Info: immagini/sr_hy.png  used on input line 495.
 (pdftex.def)             Requested size: 179.46107pt x 110.75523pt.
 
+
+[12 <./immagini/sl_nitrate.png> <./immagini/sl_hy.png>]
 
 [13 <./immagini/sr_nitrate.png> <./immagini/sr_hy.png>]
 <immagini/qq_lm.png, id=116, 526.96875pt x 325.215pt>
@@ -679,43 +678,8 @@ Package pdftex.def Info: immagini/lm_glm.png  used on input line 689.
 [18 <./immagini/lm_glm.png>]
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 718--719
-[]\OT1/cmr/m/n/10 Britannica, T. Edi-tors of En-cy-clo-pae-dia (2025). Mus-sel.
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 720--721
-[]\OT1/cmr/m/n/10 National Cen-ter for Bio-tech-no-lo-gy In-for-ma-tion (2025).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 720--721
-\OT1/cmr/m/n/10 Pub-Chem Com-pound Sum-ma-ry for CID 943, Ni-tra-te.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 722--723
-[]\OT1/cmr/m/n/10 Indiana De-part-ment of Na-tu-ral Re-sour-ces (2025). Fre-sh-wa-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 722--723
-\OT1/cmr/m/n/10 ter Mus-sels. https://www.in.gov/dnr/fish-and-wildlife/wildlife-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 726--727
-[]\OT1/cmr/m/n/10 National Cen-ter for Bio-tech-no-lo-gy In-for-ma-tion (2025). Pub-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 726--727
-\OT1/cmr/m/n/10 Chem Com-pound Sum-ma-ry for CID 123332, Oxo-nium.
- []
-
-
-
-[20] (univariate.aux)
+[20] (relazione.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -723,14 +687,14 @@ L3 programming layer <2024-10-09>
  ) 
 Here is how much of TeX's memory you used:
  8210 strings out of 473897
- 137569 string characters out of 5726461
- 564220 words of memory out of 5000000
+ 137556 string characters out of 5726461
+ 564218 words of memory out of 5000000
  30999 multiletter control sequences out of 15000+600000
  562147 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,14n,80p,1172b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,14n,80p,1171b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on univariate.pdf (21 pages, 897608 bytes).
+Output written on relazione.pdf (21 pages, 899934 bytes).
 PDF statistics:
  213 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
