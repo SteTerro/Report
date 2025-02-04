@@ -71,7 +71,7 @@ I fiumi osservati fanno parte della costa orientale e sud-orientale degli USA e 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.58\textwidth]{immagini/usa.png}
+    \includegraphics[width=0.565\textwidth]{immagini/usa.png}
     % \captionsetup{justification=centering}
     \caption{Mappa degli Stati Uniti orientali con i fiumi analizzati da \textit{Distribution of Freshwater Mussels: Coastal Rivers as Biogeographic Islands}, di Sepkoski J.J e Michael A., 1974, Systematic Biology. La linea in grassetto tratteggiata è lo spartiacque continentale orientale; confine dell'area in analisi. I numeri sulla mappa sono i fiumi: 4. Penobscot, 5. Kennebec, 6. Androscoggin, 7. Saco, 8. Merrimac, 11. Blackstone, 12. Thames, 13. Connecticut, 14. Housatonic, 15. Hudson, 16. Delaware, 17. Susquehanna, 18. Potomac, 19. Rappahannock, 20. York, 21. James, 22. Chowan, 23. Roanoke, 24. Pamlico, 25. Neuse, 26. Cape Fear, 27. Waccamaw, 28. Pee Dee, 29. Coop-er-Santee, 30. Edisto, 31. Savannah, 32. Ogeechee, 33. Altamaha, 34. Satilla, 35. St. Marys, 36. St. Johns,Fla., 37. Kissimmee, 38. Alafia, 39. Peace, 40. Myakka, 41. Hillsborough, 42. Withlacoochee, 43. Waccasassa, 44. Suwannee, 45. Ochlockonee, 46. Apalachicola, 47. Choctawhatchee, 48. Yellow, 49. Escambia.}
 \end{figure}
@@ -676,13 +676,12 @@ Per valutare la bontà di adattamento del modello stimato, sono stati confrontat
 Il test per la verifica della sovradispersione restituisce un valore osservato della statistica test pari a 50.568 e un p-value di 0.102; tale ipotesi viene quindi rifiutata.  
 
 Sono state valutate anche altre funzioni di legame, tra cui la radice quadrata ($\eta_i=\sqrt{\mu_i}$) e l'identità ($\eta_i=\mu_i$). Tuttavia, entrambe sono state scartate in quanto presentavano un valore di AIC superiore rispetto a quello del modello con funzione di legame canonica. In particolare, l'AIC del modello con legame canonico è 241.537, mentre quello con legame radice quadrata è 242.206 e quello con legame identità è 243.455.
+In entrambi i modelli è stato valutato l'inserimento di un termine di interazione.
+Nel modello lineare multiplo è stata presa in considerazione la possibilità di includere un termine di interazione tra il numero di \texttt{Stepping stones to AP} e \texttt{area} (p-value = 0.01). Tuttavia, tale termine è stato escluso dal modello, in quanto aveva un coefficiente prossimo allo zero e, data la scarsa numerosità campionaria, non si è voluto appesantire il modello.
+Nel modello di Poisson è stata considerata l'opportunità di includere il termine di interazione tra la distanza dal fiume Apalachicola (\texttt{Stepping stones to AP}) e la concentrazione di idronio (\texttt{Hydronium}) (p-value = 0.001). Tuttavia, si è deciso di non inserirlo, poiché l'analisi dei residui non ha fornito risultati soddisfacenti.
 
-È stata presa in considerazione la possibilità di includere un termine di interazione tra il numero di \texttt{Stepping stones to AP} e \texttt{area} (p-value = 0.01). Tuttavia, tale termine è stato escluso dal modello, in quanto aveva un coefficiente prossimo allo zero e, data la scarsa numerosità campionaria, non si è voluto appesantire il modello.
 
-È stata considerata l'opportunità di includere un termine di interazione, questa volta tra la distanza dal fiume Apalachicola (\texttt{Stepping stones to AP}) e la concentrazione di idronio (\texttt{Hydronium}) (p-value = 0.001). Tuttavia, si è deciso di non inserirlo, poiché l'analisi dei residui non ha fornito risultati soddisfacenti.
-
-
-\vskip 30pt
+\vskip 35pt
 \begin{flushleft}
     \textbf{\Huge 3. \: Conclusioni}
 \end{flushleft}
